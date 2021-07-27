@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de contacto</title>
+    </head>
+
+    <script>
+
+        function validar(){
+         if(isNaN(document.getElementById('tel').value)){
+            alert("El campo Teléfono de contacto es incorrecto");
+                return false;
+            }
+        return true;
+        }
+        
+        </script>
+
+    <body>
+    
+        <h1>Formulario de contacto</h1>
+            
+        <main>
+        
+        <form action="Contacto" method="get" onsubmit="return validar()">
+
+    
+            <p>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" id="nombre" required></p>
+    
+            <p>
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" name="apellido" id="apellido" required></p>
+
+            <p>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" required></p>
+    
+            <p>
+            <label for="telefono">Teléfono de contacto:</label><br>
+            <input type="tel" name="telefono" id="tel" required></p>
+
+            <p>
+            <label for="domicilio">Domicilio:</label><br>
+            <input type="text" name="domicilio" id="domicilio"></p>
+
+            <p>
+            <label for="dinero">¿Estás dispuesto a hablar de dinero?:</label><br>
+            <label><input type="radio" name="radio" id="si">Si </label><br>
+            <label><input type="radio" name="radio" id="no">No </label><br></p>
+           
+            <p>
+            <label for="consulta">Tenes alguna consulta?:</label><br>
+            <textarea cols="45" rows="10" name="consulta"></textarea></p>
+
+            <label><input type="checkbox" name="checkbox" id="polDatos">Acepto Política de datos</label><br>
+            <label><input type="checkbox" name="checkbox" id="envioInfo">Acepto envío con bonificaciones de información de este tipo </label><br></p>
+            
+            <section class="botonEnviar">
+				<a href="TestFinanzasPersonales.html"><button><b>Enviar</b></button></a>
+			</section>
+
+            
+        </form>
+        
+        </main>
+        
+    </body>
+</html>
