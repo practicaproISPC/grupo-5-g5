@@ -1,0 +1,78 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Test</title>
+    </head>
+
+    <body>
+
+        <h1>Bienvenido/a al Test de Finanzas Personales</h1>
+
+        <main>
+	
+            <form action="Preguntas_test" method="get">
+            
+                <h3>En este test vamos a hablar de dinero,<br>
+                    ¿estás dispuesto a colocar datos sobre montos de ingresos y gastos?</h3>
+        
+                <p>
+                <label><input type="radio" name="radio" id="si">Si </label><br>
+                <label><input type="radio" name="radio" id="no">No </label><br>
+                </p>
+                <!--SI DICE QUE NO: Página estática con recomendaciones sobre apps de manejo de consumo y otras sobre inversión  
+                / O, si estamos holgados de tiempo, Test secundario-->
+                
+                <h2>Basados en el último mes:</h2>
+
+                <h3>¿Cuántos fueron tus ingresos?</h3>
+                <label>$ <input type="number" name="number" id="ingreso"></label>
+                
+                <h3>¿Cuánto gastaste en consumos básicos?</h3>
+                <label>$ <input type="number" name="number" id="consumoBasico"></label><br><br>
+                <label><input type="checkbox" name="checkbox" id="noSabe">No estoy seguro</label>
+
+                <h3>¿Cuánto gastaste en consumos personales?</h3>
+                <label>$ <input type="number" name="number" id="consumoPersonal"></label><br><br>
+                <label><input type="checkbox" name="checkbox" id="noSabe1">No estoy seguro</label>
+
+                <h3>¿Cuánto gastaste en otros consumos?</h3>
+                <label>$ <input type="number" name="number" id="otrosConsumos"></label><br><br>
+                <label><input type="checkbox" name="checkbox" id="noSabe2">No estoy seguro</label>
+                <!--Si hay al menos un “No estoy seguro” - > nos vamos al primer resultado del test 
+                (recomendarle que pase un mes registrando más minuciosamente en qué gasta)-->
+
+                <h3>*¿Tenés alguna deuda judicializada o en plan de pago negociado con un estudio?</h3>
+                <label><input type="radio" name="radio" id="si1">Si </label><br>
+                <label><input type="radio" name="radio" id="no1">No </label><br>
+                
+                <h3>*¿En el último mes, solicitaste un préstamo para pagar alguna otra deuda?</h3>
+                <label><input type="radio" name="radio" id="si2">Si </label><br>
+                <label><input type="radio" name="radio" id="no2">No </label><br>
+
+                <h3>¿Utilizas tarjeta de crédito?</h3>
+                <label><input type="radio" name="radio" id="si3">Si </label><br>
+                <label><input type="radio" name="radio" id="no3">No </label><br>
+                <!--Si la respuesta anterior es Si, se activa la siguiente pregunta-->
+                <h3>*¿El último mes, abonaste el mínimo o pediste una refinanciación a tu tarjeta de crédito?</h3>
+                <label><input type="radio" name="radio" id="si4">Si </label><br>
+                <label><input type="radio" name="radio" id="no4">No </label><br>
+            
+                <!--Si alguna pregunta con * es verdadera, va a los tips para salir de las deudas.-->
+                
+
+                <!--Si estan todos los montos-->
+                <h3>A razón de lo expuesto, podrías tener $X ahorros. <br>
+                    ¿Llegaste con esos ahorros a fin de mes?</h3>
+                <label><input type="radio" name="radio" id="si5">Si </label><br>
+                <label><input type="radio" name="radio" id="no5">No </label><br>
+
+            <!--Si no tuvo ningún no estoy seguro, y todas las * son no, y SI tiene ahorros, se le dan Tips para invertir.
+            Si no tuvo ningún no estoy seguro, y todas las * son no, y NO tiene ahorros, está en la carrera de la rata.-->
+            </form>
+        </main>
+        
+    </body>
+
+<html>
