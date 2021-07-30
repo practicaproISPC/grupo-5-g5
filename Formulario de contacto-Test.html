@@ -50,15 +50,15 @@
 
             <p>
             <label for="dinero">¿Estás dispuesto a hablar de dinero?:</label><br>
-            <label><input type="radio" name="radio" id="si">Si </label><br>
+            <label><input type="radio" name="radio" id="si" checked>Si </label><br>
             <label><input type="radio" name="radio" id="no">No </label><br></p>
            
             <p>
             <label for="consulta">Tenes alguna consulta?:</label><br>
             <textarea cols="45" rows="10" name="consulta"></textarea></p>
 
-            <label><input type="checkbox" name="checkbox" id="polDatos">Acepto Política de datos</label><br>
-            <label><input type="checkbox" name="checkbox" id="envioInfo">Acepto envío con bonificaciones de información de este tipo </label><br></p>
+            <label><input type="checkbox" name="checkbox" id="polDatos" required>Acepto Política de datos</label><br>
+            <label><input type="checkbox" name="checkbox" id="envioInfo" required>Acepto envío con bonificaciones de información de este tipo </label><br></p>
             
             <section class="botonEnviar">
 				<a href="TestFinanzasPersonales.html"><button><b>Enviar</b></button></a>
