@@ -67,6 +67,10 @@ function conoceGastos(){
         window.alert("Debe indicar un monto o indicar que no está seguro");
         return
     }
+	if ((monto0.value<(monto1+monto2))){
+        window.alert("La suma de los gastos deben ser menores o iguales a los ingresos. Recuerde que le consultamos sólo lo que gasto de lo que percibió en el último mes.");
+        return
+    }
     ocultarDiv("ultimoMes");
     if (check1.checked || check2.checked){
             //console.log("True");
