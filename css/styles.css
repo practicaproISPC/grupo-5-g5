@@ -32,8 +32,9 @@ a, a:hover, a:active, a:focus {
 
 h1,
 h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
+	
 }
 
 h1 {
@@ -44,6 +45,7 @@ h1 {
 h2 {
     font-size: 32px;
     line-height: 42px;
+	font-weight: 300;
 }
 
 h3 {
@@ -61,6 +63,22 @@ h4 {
 h5 {
     font-size: 18px;
     font-weight: 300;
+}
+p{
+	text-align:justify;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 1.5em;
+
+}
+li {
+	text-align:justify;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 80px;
+	margin-right: 50px;
 }
 
 button {
