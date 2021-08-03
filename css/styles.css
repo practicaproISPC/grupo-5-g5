@@ -32,8 +32,9 @@ a, a:hover, a:active, a:focus {
 
 h1,
 h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
+	
 }
 
 h1 {
@@ -44,6 +45,7 @@ h1 {
 h2 {
     font-size: 32px;
     line-height: 42px;
+	font-weight: 300;
 }
 
 h3 {
