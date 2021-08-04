@@ -64,6 +64,26 @@ h5 {
     font-size: 18px;
     font-weight: 300;
 }
+
+figcaption {
+	font-family:'Lucida Sans', 'Lucida Sans Regular'; 
+	font-style: oblique; bold;
+	color: #84c700;
+
+}
+.resaltado {
+	background-color:#008ed6 ;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-style:oblique;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	border-radius: 20px;
+	padding: 10px;
+
+}
 p{
 	text-align:justify;
 	font-size: 14px;
@@ -87,6 +107,16 @@ button {
     color: white;
     font-weight: inherit;
 }
+.boton {
+	border: 1px solid #57601d; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #84c700; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+	}
 
 
 /* FORM GROUPS */
