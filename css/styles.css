@@ -65,6 +65,16 @@ h5 {
     font-weight: 300;
 }
 
+.subtitulos {
+	text-align: left;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: oblique;
+	color: #008ed6;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
 figcaption {
 	font-family:'Lucida Sans', 'Lucida Sans Regular'; 
 	font-style: oblique; bold;
@@ -82,7 +92,6 @@ figcaption {
 	color: #fff;
 	border-radius: 20px;
 	padding: 10px;
-
 }
 p{
 	text-align:justify;
@@ -91,6 +100,10 @@ p{
 	margin-left: 50px;
 	margin-right: 50px;
 	line-height: 1.5em;
+}
+.imagen{
+	margin-left: 50px;
+	margin-right: 10px;
 
 }
 li {
@@ -116,6 +129,7 @@ button {
 	text-transform: uppercase; /*capitalización texto*/
 	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
 	border-radius: 50px; /*bordes redondos*/
+	margin-right: 50px;
 	}
 
 
