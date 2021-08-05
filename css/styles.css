@@ -82,10 +82,13 @@ li {
 }
 
 button {
-	padding: 15px 32px;
-    background-color: #008ed6;
-    color: white;
-    font-weight: inherit;
+	padding: 10px 20px; 
+        background-color: #008ed6;
+        color: white;
+        font-weight: inherit;
+	font-size: medium;
+	box-shadow: 0px 1px 1px #828282;
+	border-radius: 25px;
 }
 
 

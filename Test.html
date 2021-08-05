@@ -50,10 +50,12 @@
 				¿estás dispuesto a colocar datos sobre montos de ingresos y gastos?</h2>
 				<label><input type="radio" name="rDatosDinero" id="rDatosDineroSi" value="s" checked>Si </label><br> <!--agregar values / cambiar name-->
 				<label><input type="radio" name="rDatosDinero" id="rDatosDineroNo" value="n">No </label><br> <!--agregar values-->
+				<br>
 				<!--"ocultarDiv('divHablarDeDinero')"-->
 				<!--SI DICE QUE NO: Página estática con recomendaciones sobre apps de manejo de consumo y otras sobre inversión  
 				/ O, si estamos holgados de tiempo, Test secundario-->
-				<button type="button" onclick="ocultarSegunSeleccion1()">Continuar</button> <!--agregar boton-->
+				<button type="button" onclick="ocultarSegunSeleccion1()"><b>Continuar</b></button> <!--agregar boton-->
+			
 			</form>
 			
 		</div>
@@ -74,8 +76,9 @@
 				<h3>¿Cuánto gastaste en consumos personales?</h3>
 				<label><input type="number" name="text" id="consumoPersonal"></label><br><br>
 				<label><input type="checkbox" name="cbxNoSabe" id="noSabe1" onclick="deshabConCheckbox('noSabe1', 'consumoPersonal')">No estoy seguro</label>
-
-				<button type="button" onclick="conoceGastos()">Continuar</button> <!--agregar boton-->
+				<br>
+				<br>
+				<button type="button" onclick="conoceGastos()"><b>Continuar</b></button> <!--agregar boton-->
 
 				<!--<h3>¿Cuánto gastaste en otros consumos?</h3>  
 				<label><input type="text" name="text" id="otrosConsumos"></label><br><br>
@@ -107,7 +110,8 @@
 					<label><input type="radio" name="minimref" id="no4" checked>No </label><br>  
 				</div>
 				<br>
-				<button type="button"onclick="estaEndeudado()">Continuar</button> <!--agregar boton-->
+				<br>
+				<button type="button"onclick="estaEndeudado()"><b>Continuar</b></button> <!--agregar boton-->
 			</form>
 			
 		</div>
@@ -117,12 +121,12 @@
 				
 
 				<!--Si estan todos los montos-->
-				<p>A razón de lo expuesto, podrías tener $</p> <p id="xAhorros">X</p> ahorros. <br>
-				<p>¿Llegaste con esos ahorros a fin de mes?</p>
+				<h3>A razón de lo expuesto, podrías tener $</h3> <h3 id="xAhorros">X</h3><h3>ahorros.</h3><br>
+				<h3>¿Llegaste con esos ahorros a fin de mes?</h3>
 				<label><input type="radio" name="radio" id="si5" checked>Si </label><br>
 				<label><input type="radio" name="radio" id="no5">No </label><br>
-
-				 <button type="button"onclick="tieneAhorros()">Continuar</button> <!--agregar boton-->
+				<br>
+				 <button type="button"onclick="tieneAhorros()"><b>Continuar</b></button> <!--agregar boton-->
 				<!--Si no tuvo ningún no estoy seguro, y todas las * son no, y SI tiene ahorros, se le dan Tips para invertir.
 				Si no tuvo ningún no estoy seguro, y todas las * son no, y NO tiene ahorros, está en la carrera de la rata.-->
 			</form>
@@ -130,19 +134,19 @@
 	</main>
 
 	<div id="recomendacionesGenerales" style="display: none;">
-		<p>Estas son algunas recomendaciones generales porque no quieres hablar de dinero</p>
+		<h3>Estas son algunas recomendaciones generales debido a que no quieres hablar de dinero</h3>
 	</div>
 	<div id="resultado1" style="display: none;">
-		<p>Registre más!</p>
+		<h3>Registre más!</h3>
 	</div>
 	<div id="resultado2" style="display: none;">
-		<p>Como librarse de las deudas</p>
+		<h3>Cómo librarse de las deudas</h3>
 	</div>
 	<div id="resultado3" style="display: none;">
-		<p>La regla del 90 10</p>
+		<h3>La regla del 90 10</h3>
 	</div>
 	<div id="resultado4" style="display: none;">
-		<p>Carrera de la rata</p>
+		<h3>Carrera de la rata</h3>
 	</div>
 	
 
