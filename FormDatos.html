@@ -64,41 +64,36 @@
         <form action="Contacto" method="get" onsubmit="return validar()">
 
     
-            <p>
+            
             <label for="nombre">Nombre:</label><br>
-            <input type="text" name="nombre" id="nombre" required></p>
-    
-            <p>
+            <input type="text" name="nombre" id="nombre" required><br>
+            
             <label for="apellido">Apellido:</label><br>
-            <input type="text" name="apellido" id="apellido" required></p>
+            <input type="text" name="apellido" id="apellido" required><br>
 
-            <p>
-            <label for="email">Email:</label><br>
-            <input type="email" name="email" required></p>
-    
-            <p>
-            <label for="telefono">Teléfono de contacto:</label><br>
-            <input type="tel" name="telefono" id="tel" required></p>
-
-            <p>
-            <label for="domicilio">Domicilio:</label><br>
-            <input type="text" name="domicilio" id="domicilio"></p>
-
-            <p>
-            <label for="dinero">¿Estás dispuesto a hablar de dinero?:</label><br>
-            <label><input type="radio" name="radio" id="si" checked>Si </label><br>
-            <label><input type="radio" name="radio" id="no">No </label><br></p>
            
-            <p>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" required><br>
+    
+           
+            <label for="telefono">Teléfono de contacto:</label><br>
+            <input type="tel" name="telefono" id="tel" required><br>
+
+            
+            <label for="domicilio">Domicilio:</label><br>
+            <input type="text" name="domicilio" id="domicilio"><br>
+			<br>
+
             <label for="consulta">Tenes alguna consulta?:</label><br>
-            <textarea cols="45" rows="10" name="consulta"></textarea></p>
-	    <p><b>***Nunca te solicitaremos claves ni datos de cuentas bancarias</b>, <br>
+            <textarea cols="40" rows="7" name="consulta"></textarea><br>
+			<br>
+	    	<p class="pCentrado"><b>***Nunca te solicitaremos claves ni datos de cuentas bancarias</b>, <br>
              códigos confidenciales enviados por SMS o e-mail, <br>
              y tampoco si ganaste un premio o sorteo. No los compartas.</p>
+			
 
             <label><input type="checkbox" name="checkbox" id="polDatos" required>Acepto Política de datos y Política de Privacidad</label><br>
-            <label><input type="checkbox" name="checkbox" id="envioInfo" required>Acepto envío con bonificaciones de información de este tipo </label><br></p>
-            
+            <label><input type="checkbox" name="checkbox" id="envioInfo" required>Acepto envío con bonificaciones de información de este tipo </label></p>
             <section class="botonEnviar">
 				<a href="TestFinanzasPersonales.html"><button><b>Enviar</b></button></a>
 			</section>
