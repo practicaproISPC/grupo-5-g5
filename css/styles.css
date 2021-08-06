@@ -66,6 +66,12 @@ h5 {
 }
 
 
+figcaption { /*letendas */
+	font-family:'Lucida Sans', 'Lucida Sans Regular'; 
+	font-style: oblique; bold;
+	color: #84c700;
+}
+
 p{
 	text-align:justify;
 	font-size: 14px;
@@ -74,12 +80,8 @@ p{
 	margin-right: 50px;
 	line-height: 1.5em;
 }
-.imagen{
-	margin-left: 50px;
-	margin-right: 10px;
 
-}
-li {
+li { /* para las listas Cuando uno dice los puntos a tener en cuenta son: */
 	text-align:justify;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
@@ -88,30 +90,12 @@ li {
 }
 
 button {
-	padding: 10px 20px; 
-        background-color: #008ed6;
-        color: white;
-        font-weight: inherit;
-	font-size: medium;
-	box-shadow: 0px 1px 1px #828282;
-	border-radius: 25px;
+	padding: 15px 32px;
+    background-color: #008ed6;
+    color: white;
+    font-weight: inherit;
 }
-.boton {
-	border: 1px solid #57601d; /*anchura, estilo y color borde*/
-	padding: 10px; /*espacio alrededor texto*/
-	background-color: #84c700; /*color botón*/
-	color: #ffffff; /*color texto*/
-	text-decoration: none; /*decoración texto*/
-	text-transform: uppercase; /*capitalización texto*/
-	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-	border-radius: 50px; /*bordes redondos*/
-	margin-right: 50px;
-	}
-figcaption {
-	font-family:'Lucida Sans', 'Lucida Sans Regular'; 
-	font-style: oblique; bold;
-	color: #84c700;
-}
+
 
 
 /* FORM GROUPS */
@@ -126,8 +110,21 @@ figcaption {
 
 /* CUSTOM CLASSES */
 
-.white-text {
+.white-text { /*esta es la clase que usamos en los h sobre imagen */
 	color: #fff;
+	text-align: left;
+	font-family: Lucida sans-serif;
+	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
+	
+}
+
+.white-text2 { /*esta es la clase que usamos en los h sobre imagen */
+	color: #fff;
+	text-align: left;
+	margin-left: 130px;
+	font-family: Lucida sans-serif;
+	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
+	
 }
 
 .colored-line-small-center {
@@ -165,11 +162,11 @@ figcaption {
 	transition: all 0.5s ease; 
 }
 
-
 .button-leweb:hover {
 	background: #008ed6;
 }
-.subtitulos {
+
+.subtitulos { /* Usados en los resultados */
 	text-align: left;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
@@ -178,7 +175,8 @@ figcaption {
 	margin-left: 50px;
 	margin-right: 50px;
 }
-.resaltado {
+
+.resaltado { /*esta la usamos en los tipo cuadros de final de los resultados */
 	background-color:#008ed6 ;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -190,42 +188,59 @@ figcaption {
 	border-radius: 20px;
 	padding: 10px;
 }
-.pCentrado{
-	text-align: center;
+
+.boton { /*usado en los resultados */
+	border: 1px solid #57601d; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #84c700; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+	margin-right: 50px;
 }
+
+.imagen { /*para que la imagen quede en caja al alinearla a la izq */
+	margin-left: 50px;
+	margin-right: 10px;
+
+}
+	
+
 
 /* SECTIONS */
 
 section {
 	padding: 120px 0px;
 }
-
 /* HEADER */
 
 #header {
-	background: url(../images/money-2696229_1920.jpg) no-repeat center center;
+	background: url(../images/money2.jpg) no-repeat center center;
 	background-size: cover;
-	height: 100vh;
+	height: 50vh;
 	padding: 0px;
 }
 
 #header .container {
 	background: url(../images/body-bg1.png) repeat 0 0;
-	height: 100vh;
+	height: 50vh;
 	width: 100% !important;
 	padding: 0px;	
 	z-index: 998;
 }
 
+
 #header .col-md-8 {
-	top: 20%;
+	top: 7%;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	position: absolute;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 30px;
+	margin-right: 50px;
 	z-index: 999;
 }
 
@@ -239,6 +254,8 @@ section {
 	height: 50px;
 	overflow: hidden;
 	position: absolute;
+	top: 40%; /*desde donde arranca la flechita */
+	left: 0;
 	z-index: 999;
 	text-align:center;
 	text-decoration: none;
@@ -248,6 +265,7 @@ section {
 	text-align: center;
 	font-size: 48px;
 	color: #fff;
+
 	
 	-webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
 	-moz-animation: leweb_fade_move_down 2s ease-in-out infinite;
