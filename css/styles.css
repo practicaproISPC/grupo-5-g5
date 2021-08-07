@@ -66,7 +66,7 @@ h5 {
 }
 
 
-figcaption { /*letendas */
+figcaption { /*leyendas */
 	font-family:'Lucida Sans', 'Lucida Sans Regular'; 
 	font-style: oblique; bold;
 	color: #84c700;
@@ -90,10 +90,13 @@ li { /* para las listas Cuando uno dice los puntos a tener en cuenta son: */
 }
 
 button {
-	padding: 15px 32px;
-    background-color: #008ed6;
-    color: white;
-    font-weight: inherit;
+	padding: 10px 20px;
+    	background-color: #008ed6;
+    	color: white;
+    	font-weight: inherit;
+	font-size: medium;
+	box-shadow: 0px 1px 1px #828282;
+	border-radius: 25px;
 }
 
 
@@ -103,9 +106,9 @@ button {
 .form-control {
 	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
 	border-radius: 0px;
-    box-shadow: none;
-    height: 57px;
-    padding-left: 20px;
+    	box-shadow: none;
+    	height: 57px;
+    	padding-left: 20px;
 }
 
 /* CUSTOM CLASSES */
@@ -113,7 +116,7 @@ button {
 .white-text { /*esta es la clase que usamos en los h sobre imagen */
 	color: #fff;
 	text-align: left;
-	font-family: Lucida sans-serif;
+	font-family: sans-serif;
 	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
 	
 }
@@ -122,7 +125,7 @@ button {
 	color: #fff;
 	text-align: left;
 	margin-left: 130px;
-	font-family: Lucida sans-serif;
+	font-family: sans-serif;
 	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
 	
 }
@@ -131,9 +134,9 @@ button {
 	background: #008ed6;
 	display: block;
 	margin: auto;
-    height: 1px;
-    width: 25%;
-    z-index: 1;
+    	height: 1px;
+    	width: 25%;
+   	z-index: 1;
 	margin-bottom: 5px;
 }
 
@@ -141,17 +144,17 @@ button {
 	background: #008ed6;
 	display: block;
 	float: right;
-    height: 1px;
-    width: 165px;
-    z-index: 1;
+    	height: 1px;
+    	width: 165px;
+    	z-index: 1;
 }
 
 .button-leweb {
 	background: none repeat scroll 0 0 rgba(22, 182, 234, 0.5);
-    border: 1px solid #fff;
+    	border: 1px solid #fff;
 	color: #fff;
 	border-radius: 0px;
-    box-shadow: none;
+    	box-shadow: none;
 	height: 57px;
 	padding-left: 18px;
 	padding-right: 18px;
@@ -207,12 +210,22 @@ button {
 
 }
 	
+.pCentrado{ /*para centrar la Advertencia debajo de la consulta en FormDatos*/
+	text-align: center;
+}
 
+.botonEnviar{ /*del FormDatos*/
+	padding: 40px 0px;
+}
+
+.botonContinuar{ /*del comienzo del test*/
+	padding: 30px 0px;
+}
 
 /* SECTIONS */
 
 section {
-	padding: 120px 0px;
+	padding: 100px 0px;
 }
 /* HEADER */
 
