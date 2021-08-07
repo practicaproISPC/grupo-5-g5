@@ -10,7 +10,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Shine - Responsive Template | Template Stock</title>
+		<title>Test de finanzas personales</title>
 
 		
 		<!-- WEB FONTS -->
@@ -35,27 +35,40 @@
 			<div id="loader"><div class="sk-spinner sk-spinner-cube-grid"><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div></div></div>
 		</div>	-->
 		
-	
+	<!-- HEADER -->
+	<section id="header">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-8">
+					<!--<img class="logo" src="images/logo.png" />-->
+					<h1 class="white-text">Bienvenido/a al test de finanzas personales</h1>
+					<h4 class="white-text">Descubre en qué tipo de gastos se nos va mayormente el dinero, y haz frente a ellos!</h4>
+					<div id="countdown" class="white-text"></div>
+				</div>
+			</div>
+		</div>
+		<div class="animation">
+		<a class="arrow-down-animation" data-scroll href="#about"><i class="fa fa-angle-down"></i></a>
+		</div>
+	</section>
+<!-- HEADER ENDS -->
 
 
     <!-- TEST -->
-
-	
-	<h1>Bienvenido/a al Test de Finanzas Personales</h1>
 
 	<main>
 		<div id="divHablarDeDinero">
 			<form ><!-- eliminar contenido en deshuso de action y method-->
 				<h2>En este test vamos a hablar de dinero,<br>
-				¿estás dispuesto a colocar datos sobre montos de ingresos y gastos?</h2>
+				¿estás dispuesto/a a colocar datos sobre montos de ingresos y gastos?</h2>
 				<label><input type="radio" name="rDatosDinero" id="rDatosDineroSi" value="s" checked>Si </label><br> <!--agregar values / cambiar name-->
 				<label><input type="radio" name="rDatosDinero" id="rDatosDineroNo" value="n">No </label><br> <!--agregar values-->
-				<br>
 				<!--"ocultarDiv('divHablarDeDinero')"-->
 				<!--SI DICE QUE NO: Página estática con recomendaciones sobre apps de manejo de consumo y otras sobre inversión  
 				/ O, si estamos holgados de tiempo, Test secundario-->
-				<button type="button" onclick="ocultarSegunSeleccion1()"><b>Continuar</b></button> <!--agregar boton-->
-			
+				<section class="botonContinuar">
+					<button type="button" onclick="ocultarSegunSeleccion1()"><b>Continuar</b></button> <!--agregar boton-->
+				</section>
 			</form>
 			
 		</div>
