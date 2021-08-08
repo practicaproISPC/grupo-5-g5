@@ -6,9 +6,12 @@
 					<p>
 						&copy; 2016 Shine | DESIGN BY <a href="http://templatestock.co">Template Stock</a> <br>
 						&copy; 2021 Webmasters: DreamTeam <br>
+					</p>
+					<p  class="pCentrado">
 						<a href="AvisoLegal.html">Aviso legal</a> | 
 						<a href="PoliticaDeCookies.html">Política de cookies</a> | 
 						<a href="PoliticadePrivacidad.html">Política de privacidad</a>
+					</p>
 						<!--
 						<span class="social">
 							<a href="#"><i class="fa fa-facebook-square"></i></a>
