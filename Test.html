@@ -69,6 +69,7 @@
 				<section class="botonContinuar">
 					<button type="button" onclick="ocultarSegunSeleccion1()"><b>Continuar</b></button> <!--agregar boton-->
 				</section>
+				<br>
 			</form>
 			
 		</div>
@@ -90,9 +91,10 @@
 				<label><input type="number" name="text" id="consumoPersonal"></label><br><br>
 				<label><input type="checkbox" name="cbxNoSabe" id="noSabe1" onclick="deshabConCheckbox('noSabe1', 'consumoPersonal')">No estoy seguro</label>
 				<br>
-				<br>
-				<button type="button" onclick="conoceGastos()"><b>Continuar</b></button> <!--agregar boton-->
-
+				<section class="botonContinuar">
+					<button type="button" onclick="conoceGastos()"><b>Continuar</b></button> <!--agregar boton-->
+				</section>
+					<br>
 				<!--<h3>¿Cuánto gastaste en otros consumos?</h3>  
 				<label><input type="text" name="text" id="otrosConsumos"></label><br><br>
 				<label><input type="checkbox" name="checkbox" id="noSabe2">No estoy seguro</label>--><!--BORRARLA-->
@@ -122,9 +124,10 @@
 					<label><input type="radio" name="minimref" id="si4">Si </label><br>
 					<label><input type="radio" name="minimref" id="no4" checked>No </label><br>  
 				</div>
+				<section class="botonContinuar">
+					<button type="button"onclick="estaEndeudado()"><b>Continuar</b></button> <!--agregar boton-->
+				</section>
 				<br>
-				<br>
-				<button type="button"onclick="estaEndeudado()"><b>Continuar</b></button> <!--agregar boton-->
 			</form>
 			
 		</div>
@@ -138,10 +141,12 @@
 				<h3>¿Llegaste con esos ahorros a fin de mes?</h3>
 				<label><input type="radio" name="radio" id="si5" checked>Si </label><br>
 				<label><input type="radio" name="radio" id="no5">No </label><br>
-				<br>
-				 <button type="button"onclick="tieneAhorros()"><b>Continuar</b></button> <!--agregar boton-->
+				<section class="botonContinuar">
+					<button type="button"onclick="tieneAhorros()"><b>Continuar</b></button> <!--agregar boton-->
 				<!--Si no tuvo ningún no estoy seguro, y todas las * son no, y SI tiene ahorros, se le dan Tips para invertir.
 				Si no tuvo ningún no estoy seguro, y todas las * son no, y NO tiene ahorros, está en la carrera de la rata.-->
+			</section>
+				<br>
 			</form>
 		</div>
 	</main>
