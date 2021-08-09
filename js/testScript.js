@@ -31,7 +31,7 @@ function ocultarSegunSeleccion1(){
             seleccion = radio.value;
             ocultarDiv("divHablarDeDinero");
             if (seleccion === "n"){
-                ocultarDiv("recomendacionesGenerales")
+                location.href='PagRecomendaciones.html';
             } else {
                 //console.log("seguir con el test")
                 ocultarDiv("ultimoMes")
@@ -73,7 +73,7 @@ function conoceGastos(){
     ocultarDiv("ultimoMes");
     if (check1.checked || check2.checked){
             //console.log("True");
-            ocultarDiv("resultado1");
+            location.href='Resultado1.html';
         } else{
             //console.log("False")
             ocultarDiv("deudas");
@@ -87,7 +87,7 @@ function estaEndeudado(){
     ocultarDiv("deudas");
     if (r1.checked || r2.checked || r3.checked){
         console.log("tiene deudad");
-        ocultarDiv("resultado2");
+        location.href='Resultado2.html';
     }else {
           //console.log("no tiene deuda"); 
           ocultarDiv("ahorros");
@@ -110,8 +110,8 @@ function tieneAhorros(){
     var r2 = document.getElementById("no5")
     ocultarDiv("ahorros")
     if (r1.checked){
-        ocultarDiv("resultado3")
+        location.href='Resultado3.html';
     }else{
-        ocultarDiv("resultado4")
+        location.href='Resultado4.html';
     }
 }
