@@ -90,7 +90,7 @@ function estaEndeudado(){
         location.href='Resultado2.html';
     }else {
           //console.log("no tiene deuda"); 
-          ocultarDiv("ahorros");
+         /*  ocultarDiv("ahorros"); */
           calcularAhorros("ingreso","consumoBasico","consumoPersonal","xAhorros");
         }
 };
@@ -100,8 +100,18 @@ function calcularAhorros(idIngresos,idConsumoBas, idConsumoPers, idSalida){
     ingresos = document.getElementById(idIngresos).value
     consumoBasico = document.getElementById(idConsumoBas).value
     consumoPersonal = document.getElementById(idConsumoPers).value
-    ahorros = ingresos - consumoBasico - consumoPersonal
-    document.getElementById(idSalida).innerHTML = ahorros
+    ahorros = ingresos * 20 / 100
+    sobrante = ingresos - consumoBasico - consumoPersonal
+    if (sobrante < ahorros){
+        console.log("Esta en la Carrera de la Rata");
+        location.href='Resultado4.html';
+
+    }else {
+       document.getElementById(idSalida).innerHTML = ahorros
+       ocultarDiv("ahorros");
+       
+    }
+    
 }
 
 
