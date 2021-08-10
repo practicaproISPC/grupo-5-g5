@@ -87,7 +87,7 @@
 		<section>
 			<h3>Por todo lo mencionado es que te invitamos a realizar el siguiente test completamente gratis que nos permitirá hacer una evaluación del estado de tus finanzas personales. A partir  de tu información brindada podremos regalarte sugerencias de éxito comprobadas para que puedas llevar tu administración al siguiente nivel.</h3>
 			<br>
-			<button onclick="location.href='FormDatos.html'"><b>ACCEDER AL TEST</b></button>
+			<button onclick="location.href='FormDatos.php'"><b>ACCEDER AL TEST</b></button>
 		</section>
 	<!-- Fin ingrese al test -->
 	

@@ -68,7 +68,7 @@
     adecuadas para la protección de los datos de los usuarios. <p>
 
     <p>Si no estás de acuerdo con nuestra Política de Privacidad, 
-    nuestra <a href="PoliticaDeCookies.html" target="_blank"> Política de Cookies </a>  o nuestro <a href="AvisoLegal.html" target="_blank"> Aviso Legal </a>, 
+    nuestra <a href="PoliticaDeCookies.php" target="_blank"> Política de Cookies </a>  o nuestro <a href="AvisoLegal.php" target="_blank"> Aviso Legal </a>, 
     no debes acceder a esta web. 
     Al navegar o hacer uso de los servicios ofrecidos en la web, 
     el usuario manifiesta la completa aceptación de las presentes condiciones
@@ -117,20 +117,9 @@
 	<script src="js/nombreProyecto.js"></script>
 	
 	<!-- FOOTER -->
-		<footer id="footer">
-			<div class="container">
-				<div class="row text-center">	
-					<p>
-						&copy; 2016 Shine | DESIGN BY <a href="http://templatestock.co">Template Stock</a>
-						<span class="social">
-							<a href="#"><i class="fa fa-facebook-square"></i></a>
-							<a href="#"><i class="fa fa-twitter-square"></i></a> 
-							<a href="#"><i class="fa fa-google-plus-square"></i></a>
-						</span>
-					</p>
-				</div>
-			</div>		
-		</footer>
+	<?php
+		include ("footer.php");
+		?>
 	<!-- FOOTER ENDS -->	
 
 	

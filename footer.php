@@ -8,9 +8,9 @@
 						&copy; 2021 Webmasters: DreamTeam <br>
 					</p>
 					<p  class="pCentrado">
-						<a href="AvisoLegal.html">Aviso legal</a> | 
-						<a href="PoliticaDeCookies.html">Política de cookies</a> | 
-						<a href="PoliticadePrivacidad.html">Política de privacidad</a>
+						<a href="AvisoLegal.php">Aviso legal</a> | 
+						<a href="PoliticaDeCookies.php">Política de cookies</a> | 
+						<a href="PoliticadePrivacidad.php">Política de privacidad</a>
 					</p>
 						<!--
 						<span class="social">
