@@ -54,7 +54,7 @@
 	<!-- HEADER ENDS -->
 		
 	<br> <p> El objetivo de la web es el de ofrecer contenido, entretenimiento y servicios relacionados con las Finanzas Personales. <p>
-        <p> Tienes acceso a toda la información sobre el tratamiento de datos personales en la página de nuestra <a href="PoliticadePrivacidad.html" target="_blank" > Política de Privacidad </a> y la información sobre cookies en la página: <a href="PoliticaDeCookies.html" target="_blank" > Política de Cookies </a> <p>
+        <p> Tienes acceso a toda la información sobre el tratamiento de datos personales en la página de nuestra <a href="PoliticadePrivacidad.php" target="_blank" > Política de Privacidad </a> y la información sobre cookies en la página: <a href="PoliticaDeCookies.php" target="_blank" > Política de Cookies </a> <p>
             <h2> Compromisos y obligaciones de los usuarios. <h2>
         <p> El usuario se compromete a utilizar el sitio web, sus servicios y contenidos de buena fe y sin contravenir la legislación vigente. Debes tener tu navegador actualizado y javascript activado para el correcto funcionamiento de la web. <p>
         <p> Queda prohibido el uso de la web, con fines ilícitos o lesivos, o que, de cualquier forma, puedan causar perjuicio o impedir el normal funcionamiento del sitio web. Respecto de los contenidos de esta web, se prohíbe su reproducción, distribución o modificación, total o parcial, a menos que se cuente con autorización expresa de <b id="np17"></b>, así como cualquier vulneración de los derechos del prestador del servicio como legítimo titular. <p>
@@ -102,20 +102,9 @@
 		<script src="js/nombreProyecto.js"></script>
 
 	<!-- FOOTER -->
-		<footer id="footer">
-			<div class="container">
-				<div class="row text-center">	
-					<p>
-						&copy; 2016 Shine | DESIGN BY <a href="http://templatestock.co">Template Stock</a>
-						<span class="social">
-							<a href="#"><i class="fa fa-facebook-square"></i></a>
-							<a href="#"><i class="fa fa-twitter-square"></i></a> 
-							<a href="#"><i class="fa fa-google-plus-square"></i></a>
-						</span>
-					</p>
-				</div>
-			</div>		
-		</footer>
+	<?php
+		include ("footer.php");
+		?>
 	<!-- FOOTER ENDS -->	
 
 	

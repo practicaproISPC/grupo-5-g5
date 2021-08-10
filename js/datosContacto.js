@@ -3,6 +3,6 @@ function validar(){
 	alert("El campo Teléfono de contacto es incorrecto");
 		return false;
 	}
-window.location.href='FormDatos.html';
+window.location.href='FormDatos.php';
 return false;
 }
