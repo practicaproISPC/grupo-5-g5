@@ -52,6 +52,13 @@
 			</div> <br>
 		</section>
 	<!-- HEADER ENDS -->
+
+	<?php
+
+        include ("nombre.php"); 
+    
+
+print "
 		
 	<br> <p> La privacidad de los usuarios es importante para nosotros,
     por lo que ponemos especial cuidado en el almacenamiento y 
@@ -68,7 +75,7 @@
     adecuadas para la protección de los datos de los usuarios. <p>
 
     <p>Si no estás de acuerdo con nuestra Política de Privacidad, 
-    nuestra <a href="PoliticaDeCookies.php" target="_blank"> Política de Cookies </a>  o nuestro <a href="AvisoLegal.php" target="_blank"> Aviso Legal </a>, 
+    nuestra <a href='PoliticaDeCookies.php' target='_blank'> Política de Cookies </a>  o nuestro <a href='AvisoLegal.php' target='_blank'> Aviso Legal </a>, 
     no debes acceder a esta web. 
     Al navegar o hacer uso de los servicios ofrecidos en la web, 
     el usuario manifiesta la completa aceptación de las presentes condiciones
@@ -78,22 +85,22 @@
 
     <p> En los diferentes formularios de la web, 
     se recogen algunos datos proporcionados por el usuario con el objetivo de: <p>
-    <li type="square">Permitir el contacto de los usuarios con los responsables 
+    <li type='square'>Permitir el contacto de los usuarios con los responsables 
     de la web a través del formulario de contacto.</li>
-    <li type="square">Permitir a los usuarios expresar sus opiniones en los comentarios de la web.</li>
-    <li type="square">Facilitar el uso de los distintos servicios que se proporcionan.</li>
-    <li type="square">Permitir el normal funcionamiento de la web.</li> <br>
+    <li type='square'>Permitir a los usuarios expresar sus opiniones en los comentarios de la web.</li>
+    <li type='square'>Facilitar el uso de los distintos servicios que se proporcionan.</li>
+    <li type='square'>Permitir el normal funcionamiento de la web.</li> <br>
 
 <p> Los menores de catorce años necesitan el consentimiento de los padres o tutores para el tratamiento de sus datos personales o para registrarse en los servicios ofrecidos en la web.<p>
-<p> El usuario podrá en cualquier momento ejercitar los derechos de acceso, oposición, rectificación, cancelación y limitación reconocidos por la ley. El ejercicio de estos derechos se realiza exclusivamente sobre los contenidos alojados en nuestra web y puede realizarlo el propio usuario a través de e-mail a El usuario deberá demostrar su identidad para poder ejercer sus derechos y manifiesta que todos los datos facilitados por él son ciertos y correctos, y se compromete a mantenerlos actualizados, comunicando los cambios a <b id="npro"></b><p>
-<p> <b id=np2></b> no almacena los resultados de los test gratuitos contestados en dicha web. Dichos datos no se utilizan para ningún fin estadístico o de otro tipo más que para atender el servicio al cliente.<p>
+<p> El usuario podrá en cualquier momento ejercitar los derechos de acceso, oposición, rectificación, cancelación y limitación reconocidos por la ley. El ejercicio de estos derechos se realiza exclusivamente sobre los contenidos alojados en nuestra web y puede realizarlo el propio usuario a través de e-mail a El usuario deberá demostrar su identidad para poder ejercer sus derechos y manifiesta que todos los datos facilitados por él son ciertos y correctos, y se compromete a mantenerlos actualizados, comunicando los cambios a <b> $nombrep </b><p>
+<p> <b> $nombrep </b> no almacena los resultados de los test gratuitos contestados en dicha web. Dichos datos no se utilizan para ningún fin estadístico o de otro tipo más que para atender el servicio al cliente.<p>
 <p> Los datos personales introducidos por el usuario y que son recogidos en los formularios de la web, se almacenan de forma indefinida o hasta que el usuario ejerza su derecho a desestimarlos.<p>
 <p> Tienes derecho a recibir todos los datos personales que nos hayas facilitado en un formato estructurado, de uso común y lectura mecánica. Puedes realizar la solicitud a través de e-mail a email desde el mismo correo utilizado para el envío de los datos.<p> <br>
 
 <h2> Legitimación para el tratamiento de datos<h2>
 <p> Los datos personales recopilados por la web son entregados voluntariamente por los usuarios en los distintos formularios de forma consentida.<p>
 <p> Por otro lado, se recogen datos de forma anónima al navegar por la web, tal como se indica en la política de Cookies. El usuario otorga su consentimiento a recabar estos datos al aceptar el mensaje correspondiente que aparece la primera vez que visita la página.<p>
-<p> Este sitio puede albergar también web beacons (también conocidos por web bugs). Los web beacons suelen ser pequeñas imágenes de un pixel por un pixel, visibles o invisibles colocados dentro del código fuente de las páginas web de un sitio. Los Web beacons sirven y se utilizan de una forma similar a las cookies. Además, los web beacons suelen utilizarse para medir el tráfico de usuarios que visitan una página web y poder sacar un patrón de los usuarios de un sitio. Dispone de más información sobre los web beacons en: <a href="https://es.wikipedia.org/wiki/Web_bug" target="_blank">WEB Beacons</a> <p>
+<p> Este sitio puede albergar también web beacons (también conocidos por web bugs). Los web beacons suelen ser pequeñas imágenes de un pixel por un pixel, visibles o invisibles colocados dentro del código fuente de las páginas web de un sitio. Los Web beacons sirven y se utilizan de una forma similar a las cookies. Además, los web beacons suelen utilizarse para medir el tráfico de usuarios que visitan una página web y poder sacar un patrón de los usuarios de un sitio. Dispone de más información sobre los web beacons en: <a href='https://es.wikipedia.org/wiki/Web_bug' target='_blank'>WEB Beacons</a> <p>
 
 
 <h2> Destinatarios de los datos <h2> 
@@ -105,17 +112,10 @@
 <h2> Consideraciones <h2> 
 <p> Los artículos de este sitio pueden incluir contenido incrustado (por ejemplo, vídeos, imágenes, artículos, etc.). El contenido incrustado de otras web se comporta exactamente de la misma manera que si el visitante hubiera visitado la otra web. Estas web pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguimiento adicional de terceros, y supervisar tu interacción con ese contenido incrustado, incluido el seguimiento de su interacción con el contenido incrustado si tienes una cuenta y estás conectado a esa web. <p>
  
-<br><br>
+<br><br> "
 
+?>
 
-
-
-       
-
-
-	
-	<script src="js/nombreProyecto.js"></script>
-	
 	<!-- FOOTER -->
 	<?php
 		include ("footer.php");

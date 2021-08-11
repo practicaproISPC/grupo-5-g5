@@ -59,24 +59,30 @@
     
     
     <!--POLÍTICA DE COOKIES-->
-        
-    <main>
+
+    <?php
+
+        include ("nombre.php"); 
+    
+
+print "   
+   
         <h2>¿Qué son las cookies?</h2>
             <p>Una cookie es un fichero enviado con la finalidad de solicitar permiso para almacenarse en su
             ordenador. Al aceptar, dicho fichero se crea y sirve para tener información respecto al tráfico
             web; también facilita las futuras visitas a una web recurrente. Otra función que tienen las
             cookies es que con ellas las web pueden reconocerte individualmente y brindarte el mejor
-            servicio personalizado.</p> <!--Style justificado-->
+            servicio personalizado.</p> 
 
-        <h2> ¿Qué cookies utiliza <b id="npro"></b> ? </h2>
+        <h2> ¿Qué cookies utiliza <b> $nombrep </b> ? </h2> 
          
         <p> Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas 
             y su frecuencia. Usamos esta información únicamente para análisis estadístico y después la
             información se elimina de forma permanente. Usted puede eliminar las cookies en cualquier
             momento desde su ordenador. Aunque las cookies ayudan a proporcionar un mejor servicio
             de los sitios web, estás no dan acceso a información de su ordenador ni de usted, a menos de
-            que usted así lo quiera y la proporcione directamente.</p>
-            
+            que usted así lo quiera y la proporcione directamente.</p> 
+           
             <p>Usted puede aceptar o negar el uso de cookies, sin embargo la mayoría de navegadores
             aceptan cookies automáticamente por todos los beneficios mencionados. También usted
             puede cambiar la configuración de su ordenador para declinar las cookies. Si se declinan
@@ -85,10 +91,10 @@
             <p>Con su consentimiento, nosotros usamos cookies o tecnologías similares para almacenar,
             acceder y procesar datos personales como su visita en este sitio web. Puede retirar otorgar
             su consentimiento u oponerse al procesamiento de tratamiento de datos basado en intereses
-            legítimos en cualquier momento haciendo clic en "Configurar" o en nuestra Política de
+            legítimos en cualquier momento haciendo clic en 'Configurar' o en nuestra Política de
             Cookies en este sitio web.</p>
 
-            <p>En <b id="np2"> </b> hacemos el siguiente tratamiento de datos con su consentimiento y/o
+            <p>En <b> $nombrep </b> hacemos el siguiente tratamiento de datos con su consentimiento y/o
             sobre la base de intereses legítimos:</p>
 
             <p>Almacenamiento y acceso a información de geolocalización con propósitos de publicidad dirigida,
@@ -99,9 +105,9 @@
 
         <h2>Se utilizan las siguientes tecnologías de análisis:</h2>
             <p>Google Analytics. Para obtener más información sobre Google Analytics y su privacidad, 
-            visite <a href= "http://www.google.com/analytics/learn/privacy.html">http://www.google.com/analytics/learn/privacy.html</a> <br>
+            visite <a href= 'http://www.google.com/analytics/learn/privacy.html'>http://www.google.com/analytics/learn/privacy.html</a> <br>
             Para optar por no ser rastreado por Google Analytics cuando utiliza nuestro sitio web, 
-            visite <a href= "http://tools.google.com/dlpage/gaoptout">http://tools.google.com/dlpage/gaoptout</a></p>
+            visite <a href= 'http://tools.google.com/dlpage/gaoptout'>http://tools.google.com/dlpage/gaoptout</a></p>
 
         <h2>¿Como gestionar las cookies?</h2>
             <p>Puede desactivar las cookies de preferencias, de análisis y de publicidad comportamental 
@@ -114,15 +120,15 @@
                 <ul>
                     <li>La configuración del navegador; por ejemplo:</li>
                         <ol>
-                            <li>Chorme, desde: <a href="https://support.google.com/chrome/answer/95647?hl=es">https://support.google.com/chrome/answer/95647?hl=es</a></li>
-                            <li>Explorer, desde: <a href="https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies">
+                            <li>Chorme, desde: <a href='https://support.google.com/chrome/answer/95647?hl=es'>https://support.google.com/chrome/answer/95647?hl=es</a></li>
+                            <li>Explorer, desde: <a href='https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies'>
                                 https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies</a></li>
-                            <li>Firefox, desde: <a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias?redirectslug=habilitar-y-deshabilitar-cookies-que-los-sitios-we&redirectlocale=es">
+                            <li>Firefox, desde: <a href='https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias?redirectslug=habilitar-y-deshabilitar-cookies-que-los-sitios-we&redirectlocale=es'>
                                 https://n9.cl/yzx37b</a></li>
                         </ol>
                     <li>Otras herramientas de terceros, disponibles online, que permiten a los usuarios detectar 
                         las cookies en cada sitio web que visita y gestionar su desactivación 
-                        (por ejemplo, Ghostery <a href="https://www.ghostery.com/about-ghostery/privacy-statements/">https://www.ghostery.com/about-ghostery/privacy-statements/</a>)</li>
+                        (por ejemplo, Ghostery <a href='https://www.ghostery.com/about-ghostery/privacy-statements/'>https://www.ghostery.com/about-ghostery/privacy-statements/</a>)</li>
                 </ul>
                 <br>
             <p>Asimismo, como usuario puede activar:</p>
@@ -133,11 +139,13 @@
                     <li>La función de no rastrear, por la que el navegador pide a los sitios web que visita 
                         que no rastreen sus hábitos de navegación para, por ejemplo, servirle publicidad de 
                         su interés en los sitios que visita.</li>
+                   
                 </ul>
-                <br><br>
-    </main>
+                <br><br>  "
+                ?>
+   
 
-    <script src="js/nombreProyecto.js"></script>
+
     <!--FIN POLÍTICA DE COOKIES-->
    
     <!-- FOOTER -->
