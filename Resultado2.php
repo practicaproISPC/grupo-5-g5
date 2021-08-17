@@ -41,7 +41,7 @@
 				<div class="row text-center">
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
-						<h1 class="white-text">Test de finanzas personales</h1>
+						<h2 class="white-text">Test de finanzas personales</h2>
 						<h2 class="white-text"> Cómo librarse de las Deudas </h2>
 						<div id="countdown" class="white-text"></div>
 					</div>
@@ -61,7 +61,7 @@
 	<p> No permitas que estas circunstancias temporales minen tu autoestima. Tu valía no pasa por los números de tu cuenta bancaria. Si permites que esto impacte negativamente en tu persona te faltarán fuerzas para revertir la situación, comprometerás tu salud física, tu bienestar emocional y tus relaciones familiares. No pierdas el control de tu vida. ¡Enfócate! <strong>  Es una circunstancia temporal con la que podrás lidiar.</strong> </p>
 	<h2> 2 - Lleva un Registro de Gastos </h2>
 	<p> Incluye hasta los más pequeños. Anota todo. Quizás lo estás haciendo con los más grandes pero debes llevar también un registro de los gastos que parecen insignificantes, ya que allí están la mayoría de las veces las fugas de dinero. </p>
-	<p> Aquí un artículo que te puede ayudar con este punto: </p>
+	<p> Aquí un artículo que te puede ayudar con este punto: </p> <br>
 	<a class="boton" href="https://www.pichincha.com/portal/blog/post/gastos-hormiga" target="_blank"> Gastos Hormigas </a> <br> <br>
 
 	<p> Cuando los tengas identificados, suprímelos y ese monto apártalo como ahorro mensual. Te sorprenderás al ver el dinero ahorrado que tendrás al cabo de un año. </p> <br>
@@ -74,7 +74,11 @@
 	<p> En segundo lugar, las que tienen un plazo menor, es decir dispones de menos tiempo para cancelarlas. A estas las pagaremos con lo ahorrado gracias al punto dos. Esto es muy importante ya que este tipo de  deudas suelen tener una elevada tasa de interés. </p>
 	<p> En tercer instancia nos fijaremos en el resto, aquellas que poseen un plazo parecido o igual, con estas implementaremos el método Bola de Nieve. Esto es, en pocas palabras, liquidar lo más rápido posible el préstamo más pequeño que tengas. Una vez que hayas pagado esa deuda, podrás destinar el dinero que usabas para ese pago para la siguiente deuda más pequeña y así sucesivamente. </p>
 	<p> Aquí encontrarás ejemplos de cómo hacerlo: </p> <br>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/xnDpXyRsKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<pre><div class="video-responsive">
+	<frameborder src="https://www.youtube.com/embed/xnDpXyRsKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+		</div> </pre>
+
      <h2> 5 - Acelera el proceso con un Ingreso Extra. </h2>   
 	<p> Aquí te invitamos a pensar en si puedes aumentar tus ingresos de alguna manera. Por ejemplo quizás tengas algún hobbies como tocar un instrumento musical, ¿podrías dar clases los fines de semana? </p>
 	<p> O tal vez puedas vender algún producto que no te consuma mucho tiempo o prestar algún servicio en tus ratos libres como mantenimiento de jardines, vigilancia, etc. </p>

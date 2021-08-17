@@ -41,7 +41,7 @@
 				<div class="row text-center">
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
-						<h1 class="white-text">Test de finanzas personales</h1>
+						<h2 class="white-text">Test de finanzas personales</h2>
 						<h3 class="white-text"><u>Registrar</u>: la clave de la buena administración financiera </h3>
 						<div id="countdown" class="white-text"></div>
 					</div>

@@ -41,7 +41,7 @@
 				<div class="row text-center">
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
-						<h1 class="white-text">Test de finanzas personales</h1>
+						<h2 class="white-text">Test de finanzas personales</h2>
 						<h2 class="white-text"> La Regla del 90/10 </h2>
 						<div id="countdown" class="white-text"></div>
 					</div>
@@ -65,19 +65,42 @@
 	<p> Puedes empezar por invertir en algún bróker de tu confianza. Allí podrás colocar tu dinero en plazos fijos, o cauciones o comprar acciones. Según si quieres arriesgar más o menos. </p>
 	<p> La ventaja de esto es que puedes empezar con muy poquito dinero, ejemplo $1000 pesos argentinos y hacerlo a través de internet desde la comodidad de tu hogar. </p>
 	<p> Pero no te apresures, antes que nada adquiere conocimiento que te permitan tomar las mejores decisiones. En este punto te recomendamos estos canales de Youtube que te permitirán ir de nivel inicial a experto en inversiones. </p> <br>
-	<a class="boton" href="https://www.youtube.com/channel/UCqJ_9wUv5-bfyan3UmPirHg" target="_blank" ALIGN=Left > Invertir en Bolsa y Criptomonedas </a> 
-	<a class="boton" href="https://www.youtube.com/channel/UCDJrCMmHkspVk5wNzavu43Q" target="_blank" ALIGN=RIGHT> Emprendimietos e Inversiones </a> <br> <br> <br>
+	<a class="boton" href="https://www.youtube.com/channel/UCqJ_9wUv5-bfyan3UmPirHg" target="_blank"  > Invertir en Bolsa y Criptomonedas </a> <br> <br><br>
+	<a class="boton" href="https://www.youtube.com/channel/UCDJrCMmHkspVk5wNzavu43Q" target="_blank" > Emprendimietos e Inversiones </a> <br> <br> <br>
 	<p> No te desanimes si a la primera no se te da bien. Con esfuerzo y constancia lo lograrás. Dentro de algunos años estarás viviendo de los intereses que generen tus inversiones, disfrutas de pasar tiempo con tu familia y podrás hacer las cosas que te gustan. </p>
 	<p> Recuerda siempre “las cosas no se pagan con dinero, se pagan con tiempo”. Quizás esta fue la gran verdad que nos enseñó la pandemia del covid 19. Vale la pena todo esfuerzo que realices por invertir en tu futuro, por invertir en tu libertad. </p> <br>
 	
 	<p class="resaltado"> <strong>  Como regalo final te dejamos algunos resúmenes de libros que te ayudarán a mantener <br> la mentalidad correcta y la motivación a tope. <br> ¡Que los disfrutes! </strong> </p> <br> 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/HXKgIErgjzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/TxetDbbqZWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/p92esPIJJmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/cj-k2sQXcds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/H6tY-fm7hMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Rf1PwkTxRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/9pcATg8azy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br> <br> 
+	
+	<pre><div class="video-responsive">
+		<frameborder src="https://www.youtube.com/embed/HXKgIErgjzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div></pre>
+
+	<pre><div class="video-responsive">
+		<frameborder src="https://www.youtube.com/embed/TxetDbbqZWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+	</div> </pre>
+
+	<pre><div class="video-responsive">
+		<frameborder src="https://www.youtube.com/embed/p92esPIJJmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+	</div> </pre>
+
+	<pre><div class="video-responsive">
+		<frameborder src="https://www.youtube.com/embed/cj-k2sQXcds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+	</div> </pre>
+
+	<pre><div class="video-responsive">
+		<frameborder src="https://www.youtube.com/embed/H6tY-fm7hMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+	</div> </pre>
+
+	<pre><div class="video-responsive">
+		<frameborder src="https://www.youtube.com/embed/Rf1PwkTxRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+	</div> </pre>
+
+	<pre><div class="video-responsive">
+		<frameborder src="https://www.youtube.com/embed/9pcATg8azy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+	</div> </pre>
+
+	
 
 
 		        
