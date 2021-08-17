@@ -20,6 +20,15 @@
 			$res = mysqli_real_escape_string($this->con, $variable);
 			return $res;
 		}
+		
+		
+		
+		public function createCliente($nombreCliente, $apellidoCliente, $emailCliente, $telefonoCliente, $domicilioCliente, $consultaCliente){
+			$sql = "INSERT INTO `visitantes` (`id_visitante`, `nombre`, `apellido`, `email`, `telefono`, `domicilio`, `consulta`) VALUES (NULL, '".$nombreCliente."', '".$apellidoCliente."', '".$emailCliente."', '".$telefonoCliente."', '".$domicilioCliente."', '".$consultaCliente."');";
+			$res =	mysqli_real_query ($this->con , $sql);
+			return $res;
+		
+		}
 	
 
 		

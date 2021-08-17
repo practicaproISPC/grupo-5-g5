@@ -54,6 +54,28 @@
 	</section>
 <!-- HEADER ENDS -->
 		
+		    <?php
+			include ("db.php");
+			$persona= new Database();
+			if(isset($_POST) && !empty($_POST)){
+				$nombre = $persona->sanitize($_POST['nombre']);
+				$apellido = $persona->sanitize($_POST['apellido']);
+				$mail = $persona->sanitize($_POST['email']);
+				$telefono = $persona->sanitize($_POST['telefono']);
+				$domicilio = $persona->sanitize($_POST['domicilio']);
+				$consulta = $persona->sanitize($_POST['consulta']);
+				
+				$res = $persona->createCliente($nombre, $apellido, $mail, $telefono, $domicilio, $consulta);
+				echo $res;
+				if($res){
+					echo "Datos insertados con éxito";
+					header('Location: Test.php');
+				}else{
+					echo "No se pudieron insertar los datos";
+				}
+			}
+					
+		?>
 
 	<!--FORMULARIO DATOS PERSONALES/ ACCESO -->
     
@@ -61,7 +83,7 @@
             
         <main>
         
-        <form action="Contacto" method="get" onsubmit="return validar()">
+        <form  method="post" >
 
     
             
@@ -94,7 +116,7 @@
             <label><input type="checkbox" name="checkbox" id="polDatos" required>Acepto Política de datos y Política de Privacidad</label><br>
             <label><input type="checkbox" name="checkbox" id="envioInfo" required>Acepto envío con bonificaciones de información de este tipo </label></p>
 			<section class="botonEnviar">
-				<a href="Test.php"><button><b>Enviar</b></button></a>
+				<button type="submit"><b>Enviar</b></button>
 			</section>
 			<br><br><br>
 			
