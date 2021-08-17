@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +41,7 @@
 				<div class="row text-center">
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
-						<h1 class="white-text">Test de finanzas personales</h1>
+						<h2 class="white-text">Test de finanzas personales</h2>
 						<h2 class="white-text"> La Carrera de la Rata </h2>
 						<div id="countdown" class="white-text"></div>
 					</div>
@@ -53,9 +53,13 @@
 		</section>
 	<!-- HEADER ENDS -->
 		
-	<br> <p> En primer lugar le <strong>felicitamos </strong> por no tener deudas que se le estén acumulando o saliendo de control. Excelente. Todo un logro en estos tiempos. </p>
-    <p> Ahora le queremos invitar a que mire con detenimiento el siguiente video: </p> 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/gmhATSKXDOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+	<br> <h3> En primer lugar le <strong>felicitamos </strong> por no tener deudas que se le estén acumulando o saliendo de control. Excelente. Todo un logro en estos tiempos. </h3>
+    <h4> Ahora le queremos invitar a que mire con detenimiento el siguiente video: </h4> 
+
+	<pre><div class="video-responsive">
+		<frameborder src="https://www.youtube.com/embed/gmhATSKXDOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+	</div></pre>
+
 	<p> ¿Se sintió identificado? Seguramente en algún puntos sí. Esto es a lo que, de ROBERT KIYOSAKI, llamo la carrera de la rata. Es una situación muy común, tal vez la más común de todas. Estás en este punto cuando te quejas de tu sueldo o sientes que no te alcanza el dinero, si sueles pedir adelantos, o usar tu tarjeta de crédito al límite, si te cuesta diferenciar entre lujo y necesidad, o si ante una situación estresante en lo que primero que piensas es en ir de compras. </p>
 	<p> En el libro “Padre Rico Padre Pobre” encontrarás más puntos que te ayudarán a evaluarte. Pero básicamente podemos decir que es la sensación de ir tras el dinero. Tener gastado el sueldo antes de ganarlo por haber comprado a crédito. Es decir, tus gastos crecen al mismo ritmo que tus ganancias, por lo que EL DINERO SIEMPRE PARECE NO ALCANZAR. </p> 
 	<h2> Cómo salir de la Carrera de la Rata </h2> <br>
@@ -69,8 +73,8 @@
 	<h5 class="subtitulos"> 4) Estudia a quienes ya lo han logrado. </h5>
 	<p> Lee libros de educación financiera, escucha podcasts, busca referentes de la vida que quieres logras. Personas que disfrutan su trabajo, no que lo sufren. Personas que sienten el control de sus vidas, no que se levantan de la cama obligadas. </p>
 	<p> Aquí te dejamos un canal de Youtube, que también está en spotify, que te ayudará a ver por dónde empezar. </p> <br>
-	<a class="boton" href="https://www.youtube.com/channel/UCdBV7AnmVsrdwTFlZvB4lrw" target="_blank" ALIGN=Left > Libros para Emprendedores YT </a> 
-	<a class="boton" href="https://open.spotify.com/show/0qXuVDCYF8HvkEynJwHULb" target="_blank" ALIGN=RIGHT> Libros para Emprendedores SP </a> <br> <br> <br>
+	<a class="boton" href="https://www.youtube.com/channel/UCdBV7AnmVsrdwTFlZvB4lrw" target="_blank"  > Libros para Emprendedores YT </a> <br> <br> <br>
+	<a class="boton" href="https://open.spotify.com/show/0qXuVDCYF8HvkEynJwHULb" target="_blank" > Libros para Emprendedores SP </a> <br> <br> <br>
 	<h5 class="subtitulos"> 5) TOMA ACCIÓN. </h5>
 	<p> No te quedes solo con la ilusión. Esfuérzate por lograrlo. </p>
 	<IMG SRC="images/rata.jpg" alt="saliendo de la carrera de la rata" width="300px" height="300px" ALIGN=RIGHT>
