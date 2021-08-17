@@ -96,18 +96,22 @@ function estaEndeudado(){
 };
 
 function calcularAhorros(idIngresos,idConsumoBas, idConsumoPers, idSalida){
-    //PROBLEMA ¿Y SI LE DIERA EN PÉRDIDA??
+    /*Calcula los ahorros que podría tener la persona, recibiendo el id de los boxs en donde introdujo
+	sus ingrsos, id del box donde introdujo su consumo básico e id del box donde introdujo su consumo personal. 
+	Segun las circunstancias le envía a la carrera de la rata o devuelve en id saluda (de un elemento h3) 
+	el texto 'A razón de lo expuesto podría tener ahorrados $x' con el resultado del cálculo */
     ingresos = document.getElementById(idIngresos).value
     consumoBasico = document.getElementById(idConsumoBas).value
     consumoPersonal = document.getElementById(idConsumoPers).value
     ahorros = ingresos * 20 / 100
+	stringRes = "A razón de lo expuesto, podrías tener ahorrados $ "
     sobrante = ingresos - consumoBasico - consumoPersonal
     if (sobrante < ahorros){
         console.log("Esta en la Carrera de la Rata");
         location.href='Resultado4.html';
 
     }else {
-       document.getElementById(idSalida).innerHTML = ahorros
+       document.getElementById(idSalida).innerHTML = stringRes + ahorros
        ocultarDiv("ahorros");
        
     }
