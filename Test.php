@@ -137,7 +137,7 @@
 				
 
 				<!--Si estan todos los montos-->
-				<h3>A razón de lo expuesto, podrías tener $</h3> <h3 id="xAhorros">X</h3><h3>ahorros.</h3><br>
+				<h3 id="xAhorros">X</h3><br>
 				<h3>¿Llegaste con esos ahorros a fin de mes?</h3>
 				<label><input type="radio" name="radio" id="si5" checked>Si </label><br>
 				<label><input type="radio" name="radio" id="no5">No </label><br>
