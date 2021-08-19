@@ -108,7 +108,7 @@ function calcularAhorros(idIngresos,idConsumoBas, idConsumoPers, idSalida){
     sobrante = ingresos - consumoBasico - consumoPersonal
     if (sobrante < ahorros){
         console.log("Esta en la Carrera de la Rata");
-        location.href='Resultado4.html';
+        location.href='Resultado4.php';
 
     }else {
        document.getElementById(idSalida).innerHTML = stringRes + ahorros
