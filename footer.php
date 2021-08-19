@@ -5,7 +5,7 @@
 					
 					<p>
 						&copy; 2016 Shine | DESIGN BY <a href="http://templatestock.co">Template Stock</a> <br>
-						&copy; 2021 Webmasters: DreamTeam <br>
+						&copy; 2021 <a href="Webmasters Dreamteam/PagWDreamteam.php"> Webmasters: DreamTeam</a>  <br>
 					</p>
 					<p  class="pCentrado">
 						<a href="AvisoLegal.php">Aviso legal</a> | 
