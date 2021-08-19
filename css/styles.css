@@ -81,12 +81,8 @@ p{
 	line-height: 1.5em;
 }
 
-li { /* para las listas Cuando uno dice los puntos a tener en cuenta son: */
-	text-align:justify;
-	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
-	margin-left: 80px;
-	margin-right: 50px;
+ol { /* para las listas Cuando uno dice los puntos a tener en cuenta son: */
+	list-style-type:upper-alpha;
 }
 
 button {
