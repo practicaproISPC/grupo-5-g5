@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -85,11 +85,13 @@ print "
 
     <p> En los diferentes formularios de la web, 
     se recogen algunos datos proporcionados por el usuario con el objetivo de: <p>
-    <li type='square'>Permitir el contacto de los usuarios con los responsables 
-    de la web a través del formulario de contacto.</li>
-    <li type='square'>Permitir a los usuarios expresar sus opiniones en los comentarios de la web.</li>
-    <li type='square'>Facilitar el uso de los distintos servicios que se proporcionan.</li>
-    <li type='square'>Permitir el normal funcionamiento de la web.</li> <br>
+	<ol>
+    	<li type='square'>Permitir el contacto de los usuarios con los responsables 
+    	de la web a través del formulario de contacto.</li>
+    	<li type='square'>Permitir a los usuarios expresar sus opiniones en los comentarios de la web.</li>
+    	<li type='square'>Facilitar el uso de los distintos servicios que se proporcionan.</li>
+    	<li type='square'>Permitir el normal funcionamiento de la web.</li> 
+	</ol> <br>
 
 <p> Los menores de catorce años necesitan el consentimiento de los padres o tutores para el tratamiento de sus datos personales o para registrarse en los servicios ofrecidos en la web.<p>
 <p> El usuario podrá en cualquier momento ejercitar los derechos de acceso, oposición, rectificación, cancelación y limitación reconocidos por la ley. El ejercicio de estos derechos se realiza exclusivamente sobre los contenidos alojados en nuestra web y puede realizarlo el propio usuario a través de e-mail a El usuario deberá demostrar su identidad para poder ejercer sus derechos y manifiesta que todos los datos facilitados por él son ciertos y correctos, y se compromete a mantenerlos actualizados, comunicando los cambios a <b> $nombrep </b><p>
