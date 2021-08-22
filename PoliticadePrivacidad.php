@@ -41,14 +41,14 @@
 				<div class="row text-center">
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
-						<h1 class="white-text">Test de finanzas personales</h1>
-						<h3 class="white-text2">Política de Privacidad</h3>
+						<h1 class="white-text">Test de Finanzas Personales</h1>
+						<h2 class="white-text">Política de Privacidad</h2>
 						<div id="countdown" class="white-text"></div>
 					</div>
 				</div>
 			</div>
 			<div class="animation">
-			<a class="arrow-down-animation" data-scroll href="#about"><i class="fa fa-angle-down"></i></a>
+			<a class="arrow-down-animation" data-scroll><i class="fa fa-angle-down"></i></a>
 			</div> <br>
 		</section>
 	<!-- HEADER ENDS -->
@@ -108,7 +108,7 @@ print "
 <h2> Destinatarios de los datos <h2> 
 <p> En nuestra web, se utilizan servicios de terceros con el fin de poder ejercer la actividad con normalidad. A continuación detallamos los distintos servicios utilizados así como los enlaces a sus respectivas políticas de privacidad.<p>
 <p> Se utiliza el servicio de medición y análisis de tráfico web Google Analytics prestado por Google, Inc., que utiliza cookies para analizar de forma anónima el uso que hacen los usuarios del sitio web.<p>
-<h3> Cómo usa Google los datos que recopila en los sitios web <h3>
+<h2> Cómo usa Google los datos que recopila en los sitios web <h2>
 <p> Google (Analytics): Política de Privacidad de Google Analytics (si lo deseas puedes inhabilitar el seguimiento de Google Analytics mediante este complemente para el navegador ofrecido por Google) <p>
 <p> En nuestra web se muestra publicidad de Google Adsense que utiliza cookies para mostrar contenidos publicitarios afines a los usuarios. Consulta la política de privacidad de Google Adsense. <p>
 <h2> Consideraciones <h2> 
