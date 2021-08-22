@@ -120,23 +120,16 @@ img {
 /* CUSTOM CLASSES */
 
 .white-text { /*esta es la clase que usamos en los h sobre imagen */
-	color: #fff;
+	color: ;
 	text-align: left;
 	font-family: sans-serif;
-	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
-	/*Agregados para sombrear los títulos para generar contraste por accesibilidad*/
-	background-color: #646021b0;
+	text-shadow: -2px -1px 0px #f8f5f5e7; /* sombra Valores x y y color */
 	/*float: left;*/
+	position: relative;
+	left: 0;
+	top: 7%;
 }
 
-.white-text2 { /*esta es la clase que usamos en los h sobre imagen */
-	color: #fff;
-	text-align: left;
-	margin-left: 130px;
-	font-family: sans-serif;
-	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
-	
-}
 
 .colored-line-small-center {
 	background: #008ed6;
@@ -279,7 +272,7 @@ section {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	position: absolute;
+	position: relative;
 	display: table;
 	margin-left: 30px;
 	margin-right: 50px;
