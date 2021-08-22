@@ -30,8 +30,7 @@ a, a:hover, a:active, a:focus {
 
 /* TYPOGRAPHIE */
 
-h1,
-h2 {
+h1, h2{
 	font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
 	
@@ -42,11 +41,14 @@ h1 {
     line-height: 62px;
 }
 
+/*Se cambió el formato del h2 para que sea como h3, para usar en la estructura los h2 donde corresponde, con un formato más pequeño*/
+
 h2 {
-    font-size: 32px;
+    font-size: 22px;
     line-height: 42px;
 	font-weight: 300;
-}
+} 
+
 
 h3 {
     font-size: 22px;
@@ -73,7 +75,7 @@ figcaption { /*leyendas */
 }
 
 p{
-	text-align:justify;
+	text-align:left; /*se cambió de justify a left por accesibilidad*/
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	margin-left: 50px;
@@ -94,7 +96,7 @@ button {
     	background-color: #008ed6;
     	color: white;
     	font-weight: inherit;
-	font-size: medium;
+	font-size: 22px; /*Era medium, cambie a 22px para satisfacer contraste accesibilidad*/
 	box-shadow: 0px 1px 1px #828282;
 	border-radius: 25px;
 }
@@ -122,7 +124,9 @@ img {
 	text-align: left;
 	font-family: sans-serif;
 	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
-	
+	/*Agregados para sombrear los títulos para generar contraste por accesibilidad*/
+	background-color: #646021b0;
+	/*float: left;*/
 }
 
 .white-text2 { /*esta es la clase que usamos en los h sobre imagen */
@@ -495,8 +499,8 @@ section {
 	}
 
 	h2 {
-		font-size: 24px;
-		line-height: 38px;
+		font-size: 18px;
+		line-height: 30px;
 	}
 
 	h3 {

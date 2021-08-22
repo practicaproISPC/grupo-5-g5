@@ -41,7 +41,7 @@
 				<div class="row text-center">
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
-						<h2 class="white-text">Test de finanzas personales</h2>
+						<h1 class="white-text">Test de finanzas personales</h1>
 						<h2 class="white-text"> Cómo librarse de las Deudas </h2>
 						<div id="countdown" class="white-text"></div>
 					</div>
