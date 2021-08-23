@@ -121,22 +121,14 @@ img {
 /* CUSTOM CLASSES */
 
 .white-text { /*esta es la clase que usamos en los h sobre imagen */
-	color: #fff;
+	color: ;
 	text-align: left;
 	font-family: sans-serif;
-	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
-	/*Agregados para sombrear los títulos para generar contraste por accesibilidad*/
-	background-color: #646021b0;
+	text-shadow: -2px -1px 0px #f8f5f5e7; /* sombra Valores x y y color */
 	/*float: left;*/
-}
-
-.white-text2 { /*esta es la clase que usamos en los h sobre imagen */
-	color: #fff;
-	text-align: left;
-	margin-left: 130px;
-	font-family: sans-serif;
-	text-shadow: 3px 1px #0e0d0de7; /* sombra Valores x y y color */
-	
+	position: relative;
+	left: 0;
+	top: 7%;
 }
 
 .colored-line-small-center {
