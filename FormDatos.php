@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,13 +43,13 @@
 				<div class="col-md-8">
 					<!--<img class="logo" src="images/logo.png" />-->
 					<h1 class="white-text">Test de finanzas personales</h1>
-					<h3 class="white-text">Te contamos los beneficios de administrar correctamente el dinero</h3>
+					<h2 class="white-text">Te contamos los beneficios de administrar correctamente el dinero</h2>
 					<div id="countdown" class="white-text"></div>
 				</div>
 			</div>
 		</div>
 		<div class="animation">
-		<a class="arrow-down-animation" data-scroll href="#about"><i class="fa fa-angle-down"></i></a>
+		<span class="arrow-down-animation" ><i class="fa fa-angle-down"></i></span>
 		</div>
 	</section>
 <!-- HEADER ENDS -->
@@ -61,7 +61,7 @@
 				$nombre = $persona->sanitize($_POST['nombre']);
 				$apellido = $persona->sanitize($_POST['apellido']);
 				$mail = $persona->sanitize($_POST['email']);
-				$telefono = $persona->sanitize($_POST['telefono']);
+				$telefono = $persona->sanitize($_POST['tel']);
 				$domicilio = $persona->sanitize($_POST['domicilio']);
 				$consulta = $persona->sanitize($_POST['consulta']);
 				
@@ -95,11 +95,11 @@
 
            
             <label for="email">Email:</label><br>
-            <input type="email" name="email" required><br>
+            <input type="email" name="email" id="email" required><br>
     
            
-            <label for="telefono">Teléfono de contacto:</label><br>
-            <input type="tel" name="telefono" id="tel" required><br>
+            <label for="tel">Teléfono de contacto:</label><br>
+            <input type="tel" name="tel" id="tel" required><br>
 
             
             <label for="domicilio">Domicilio:</label><br>
@@ -107,7 +107,7 @@
 			<br>
 
             <label for="consulta">Tenes alguna consulta?</label><br>
-            <textarea cols="40" rows="7" name="consulta"></textarea><br>
+            <textarea cols="40" rows="7" name="consulta" id="consulta"></textarea><br>
 			<br>
 	    	<p class="pCentrado"><b>***Nunca te solicitaremos claves ni datos de cuentas bancarias</b>, <br>
              códigos confidenciales enviados por SMS o e-mail, <br>

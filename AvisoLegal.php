@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,13 +42,13 @@
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
 						<h1 class="white-text">Test de finanzas personales</h1>
-						<h3 class="white-text2">Aviso Legal</h3>
+						<h2 class="white-text">Aviso Legal</h2>
 						<div id="countdown" class="white-text"></div>
 					</div>
 				</div>
 			</div>
 			<div class="animation">
-			<a class="arrow-down-animation" data-scroll href="#about"><i class="fa fa-angle-down"></i></a>
+			<a class="arrow-down-animation" data-scroll><i class="fa fa-angle-down"></i></a>
 			</div> <br>
 		</section>
 	<!-- HEADER ENDS -->

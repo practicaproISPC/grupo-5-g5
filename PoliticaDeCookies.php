@@ -43,14 +43,14 @@
 				<div class="row text-center">
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
-						<h1 class="white-text">Test de finanzas personales</h1>
-						<h3 class="white-text2">Política de Cookies</h3>
+						<h1 class="white-text">Test de Finanzas Personales</h1>
+						<h2 class="white-text">Política de Cookies</h2>
 						<div id="countdown" class="white-text"></div>
 					</div>
 				</div>
 			</div>
 			<div class="animation">
-			<a class="arrow-down-animation" data-scroll href="#about"><i class="fa fa-angle-down"></i></a>
+			<a class="arrow-down-animation" data-scroll><i class="fa fa-angle-down"></i></a>
 			</div>
 		</section>
     

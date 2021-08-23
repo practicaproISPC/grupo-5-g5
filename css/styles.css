@@ -100,7 +100,6 @@ button {
 	box-shadow: 0px 1px 1px #828282;
 	border-radius: 25px;
 }
-
 img {
 	height: auto;
 	max-width: 100%;
@@ -130,6 +129,7 @@ img {
 	left: 0;
 	top: 7%;
 }
+
 
 .colored-line-small-center {
 	background: #008ed6;
@@ -219,6 +219,7 @@ img {
 	padding: 15px 0px;
 }
 
+
 .video-responsive {
 	position: relative;
 	padding-bottom: 56.25%; /* 16/9 ratio */
@@ -227,15 +228,15 @@ img {
 	overflow: hidden;
 	}
 	
-.video-responsive iframe,
-.video-responsive object,
-.video-responsive embed {
+	.video-responsive iframe,
+	.video-responsive object,
+	.video-responsive embed {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
+	}
 
 
 /* SECTIONS */
@@ -243,7 +244,6 @@ img {
 section {
 	padding: 100px 0px;
 }
-
 /* HEADER */
 
 #header {
@@ -266,7 +266,7 @@ section {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	position: absolute;
+	position: relative;
 	display: table;
 	margin-left: 30px;
 	margin-right: 50px;
@@ -390,18 +390,18 @@ section {
         font-family: FontAwesome;
         top:0;
         content: "\f058";
-	font-size: 14px;
-	margin-right: 4px;
-	color: #b8c000;
+		font-size: 14px;
+		margin-right: 4px;
+		color: #b8c000;
 }
 
 #subscribe #mc_form .error:before {
         font-family: FontAwesome;
         top:0;
         content: "\f071";
-	font-size: 14px;
-	margin-right: 4px;
-	color: #bb1720;
+		font-size: 14px;
+		margin-right: 4px;
+		color: #bb1720;
 }
 
 
@@ -526,4 +526,5 @@ section {
 		margin-bottom: 65px;
 	}
 }
+
 
