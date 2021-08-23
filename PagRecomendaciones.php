@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -65,10 +65,9 @@
     realizar el Test y evaluar si pudiste mejorar la situación en la que te encontrabas en aquel momento.</p>
     <br>
     <p  class="pCentrado">Si estás arrepentido y quieres realizar el Test, ingresa aquí:</p>
-
-    <section class="botonVolverTest">
-        <a href="Test.php"><button><b>Volver al Test</b></button></a>
-    </section> 
+	<br>
+	<button onclick="location.href='Test.php'"><b>Volver al Test</b></button>
+	<br><br>
 
 	<hr>
 
