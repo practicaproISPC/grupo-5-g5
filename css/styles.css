@@ -219,13 +219,7 @@ img {
 	padding: 15px 0px;
 }
 
-.botonContinuar{ /*del Test*/
-	padding: 30px 0px;
-}
 
-.botonVolverTest{ /* de la pag de Recomendaciones*/
-	padding: 25px;
-}
 .video-responsive {
 	position: relative;
 	padding-bottom: 56.25%; /* 16/9 ratio */
@@ -532,4 +526,5 @@ section {
 		margin-bottom: 65px;
 	}
 }
+
 

@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -66,9 +66,9 @@
 				<!--"ocultarDiv('divHablarDeDinero')"-->
 				<!--SI DICE QUE NO: Página estática con recomendaciones sobre apps de manejo de consumo y otras sobre inversión  
 				/ O, si estamos holgados de tiempo, Test secundario-->
-				<section class="botonContinuar">
-					<button type="button" onclick="ocultarSegunSeleccion1()"><b>Continuar</b></button> <!--agregar boton-->
-				</section>
+				<br>
+				<button type="button" onclick="ocultarSegunSeleccion1()"><b>Continuar</b></button> <!--agregar boton-->
+				<br><br>
 				<br>
 			</form>
 			
@@ -90,11 +90,10 @@
 				<h3>¿Cuánto gastaste en consumos personales?</h3>
 				<label><input type="number" name="text" id="consumoPersonal"></label><br><br>
 				<label><input type="checkbox" name="cbxNoSabe" id="noSabe1" onclick="deshabConCheckbox('noSabe1', 'consumoPersonal')">No estoy seguro</label>
+				<br><br>
+				<button type="button" onclick="conoceGastos()"><b>Continuar</b></button> <!--agregar boton-->
+				<br><br>
 				<br>
-				<section class="botonContinuar">
-					<button type="button" onclick="conoceGastos()"><b>Continuar</b></button> <!--agregar boton-->
-				</section>
-					<br>
 				<!--<h3>¿Cuánto gastaste en otros consumos?</h3>  
 				<label><input type="text" name="text" id="otrosConsumos"></label><br><br>
 				<label><input type="checkbox" name="checkbox" id="noSabe2">No estoy seguro</label>--><!--BORRARLA-->
@@ -105,7 +104,7 @@
 		
 		</div>
 		<div id="deudas" style="display: none;">
-		  <form action="" method="">
+		  <form>
 				<h3>*¿Tenés alguna deuda judicializada o en plan de pago negociado con un estudio?</h3>
 				<label><input type="radio" name="judi" id="si1">Si </label><br>
 				<label><input type="radio" name="judi" id="no1" checked>No </label><br>
@@ -124,9 +123,9 @@
 					<label><input type="radio" name="minimref" id="si4">Si </label><br>
 					<label><input type="radio" name="minimref" id="no4" checked>No </label><br>  
 				</div>
-				<section class="botonContinuar">
-					<button type="button"onclick="estaEndeudado()"><b>Continuar</b></button> <!--agregar boton-->
-				</section>
+				<br><br>
+				<button type="button" onclick="estaEndeudado()"><b>Continuar</b></button> <!--agregar boton-->
+				<br><br>
 				<br>
 			</form>
 			
@@ -135,26 +134,20 @@
 			<form>
 				<!--Si alguna pregunta con * es verdadera, va a los tips para salir de las deudas.-->
 				
-
 				<!--Si estan todos los montos-->
-				<h3 id="xAhorros">X</h3><br>
+				<h3 id="xAhorros">X</h3>
 				<h3>¿Llegaste con esos ahorros a fin de mes?</h3>
 				<label><input type="radio" name="radio" id="si5" checked>Si </label><br>
 				<label><input type="radio" name="radio" id="no5">No </label><br>
-				<section class="botonContinuar">
-					<button type="button"onclick="tieneAhorros()"><b>Continuar</b></button> <!--agregar boton-->
+				<br>
+				<button type="button" onclick="tieneAhorros()"><b>Continuar</b></button> <!--agregar boton-->
 				<!--Si no tuvo ningún no estoy seguro, y todas las * son no, y SI tiene ahorros, se le dan Tips para invertir.
 				Si no tuvo ningún no estoy seguro, y todas las * son no, y NO tiene ahorros, está en la carrera de la rata.-->
-			</section>
+				<br><br>
 				<br>
 			</form>
 		</div>
 	</main>
-
-	
-
-
-
 	
 	<!-- FOOTER -->
 	<?php

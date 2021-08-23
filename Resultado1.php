@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,23 +56,25 @@
 	<br> <p> Seguramente te ha pasado llegar a fin de mes y no saber en qué se te fue el dinero. Pensar “gane tanto, pague esto, aquello, esto otro… y me falta tanto que no se en qué lo gaste”. Incluso puede que alguna vez te preguntaras si habías perdido dinero en algún sitio. Esto se debe a que no llevas un registro o control del flujo de tu dinero. </p>
     <p> ¿Por qué es tan importante llevar un registro con las entradas y salidas de dinero? Podemos decir que es la base de una buena administración. Ya que si no sé a ciencia cierta cuánto gano, cuánto gasto y en qué lo gasto no puedo confeccionar un presupuesto, proyectar ahorros, reducir gastos, identificar los gastos hormigas, etc. </p>
 	<p> Es el primer paso de la escalera que conduce a la Libertad Financiera. Por eso te animamos a que durante un mes anotes todo, pero absolutamente todo: dinero que ganas y dinero que gastas por más que sean montos muy pequeños. Finalizado el mes, por favor, vuelve a realizar este test. </p> <br>
-	<figure> <img src="images/registrar.jpg" alt="debemos registar el dinero. Calculadora. " width="500px" height="315px" /> <figcaption> Debemos Registrar para poder Controlar Nuestras Finanzas </figcaption> </figure> <br>
+	<figure> <img src="images/registrar.jpg" alt="debemos registar el dinero. Calculadora. " width="500" height="315" /> <figcaption> Debemos Registrar para poder Controlar Nuestras Finanzas </figcaption> </figure> <br>
 	<h2> Algunos consejos para hacer el registro. </h2>
 	<p> Puedes usar una  libretita y lápiz, una hoja de Excel, una aplicación en tu celular o lo que te resulte más cómodo. La idea es que dispongas de ese medio todos los días para poder apuntar fehacientemente. </p>
 	<p> Aquí te dejamos una nota de un periódico argentino sobre 7 apps que te pueden ser de ayuda   </p> <br>
 	<a class="boton" href="https://www.clarin.com/servicios/finanzas-control-7-apps-administrar-manera-sencilla-economia-personal_0_jg3hEAt5S.html" target="_blank"> Ayudas para Registrar </a> <br>
 	<h2> ¿Sabías esto de los gastos hormigas? </h2>
 	<p>Los gastos hormiga son consumos de montos pequeños que al parecer no repercuten en tu presupuesto pero, en realidad, tienen un alto impacto en tus finanzas personales o familiares. Se trata de <strong> compras frecuentes de cosas que en realidad no necesitas. </strong>  </p> <br>
-	<figure> <img src="images/cuidado-compras-por-impulso.jpg" alt="comprando en internet" width="500px" height="500px" /> <figcaption> Todos tenemos gastos hormigas </figcaption> </figure> <br>
+	<figure> <img src="images/cuidado-compras-por-impulso.jpg" alt="comprando en internet" width="500" height="500" /> <figcaption> Todos tenemos gastos hormigas </figcaption> </figure> <br>
 	<p> Es muy común que al pensar en tus gastos, te enfoques en los más significativos, como la deuda de un auto o una casa o en las compras con tu tarjeta. Pero son los pequeños gastos diarios los que podrían estar drenando tu bolsillo. No se suelen medir porque no se hace conciencia sobre su necesidad e impacto real. Estos son algunos ejemplos de los gastos hormiga más comunes: </p>
-	    <li type="square"> El café que compras todos los días. </li>
-		<li type="square"> Los antojos de la tienda. </li>
-		<li type="square"> Comer fuera de casa. </li>
-		<li type="square"> Tarifas adicionales en servicios básicos. </li>
-		<li type="square"> Suscripciones que pagas, pero no utilizas. </li>
-		<li type="square"> Pequeños vicios como el tabaco. </li>
-		<li type="square"> Cualquier compra por impulso. </li> <br>
-	
+	    <ul>
+			<li> El café que compras todos los días.</li>
+			<li> Los antojos de la tienda.</li>
+			<li> Comer fuera de casa.</li>
+			<li> Tarifas adicionales en servicios básicos.</li>
+			<li> Suscripciones que pagas, pero no utilizas.</li>
+			<li> Pequeños vicios como el tabaco.</li>
+			<li> Cualquier compra por impulso.</li> 
+		</ul>
+	<br>
 	<p> Seguramente, has desembolsado tu dinero en uno o varios de los consumos hormiga que te mencionamos. Por eso, es muy importante <strong> identificarlos, </strong>tomar conciencia de tus compras y llevar un control de lo que gastas, para que puedas ahorrar más o usar mucho mejor tu dinero.  </p>
 	<p>Aquí te dejamos un artículo con algunas sugerencias para que puedas identificar tus gastos hormigas y los puedas controlar. </p> <br>
 		<a class="boton" href="https://www.pichincha.com/portal/blog/post/gastos-hormiga" target="_blank"> Gastos Hormigas </a> <br>
