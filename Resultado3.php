@@ -48,7 +48,7 @@
 				</div>
 			</div>
 			<div class="animation">
-			<a class="arrow-down-animation" data-scroll href="#about"><i class="fa fa-angle-down"></i></a>
+			<a class="arrow-down-animation" data-scroll ><i class="fa fa-angle-down"></i></a>
 			</div> <br>
 		</section>
 	<!-- HEADER ENDS -->
@@ -73,46 +73,32 @@
 	<p class="resaltado"> <strong>  Como regalo final te dejamos algunos resúmenes de libros que te ayudarán a mantener <br> la mentalidad correcta y la motivación a tope. <br> ¡Que los disfrutes! </strong> </p> <br> 
 	
 	<pre><div class="video-responsive">
-		<frameborder src="https://www.youtube.com/embed/HXKgIErgjzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe src="https://www.youtube.com/embed/HXKgIErgjzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div></pre>
 
 	<pre><div class="video-responsive">
-		<frameborder src="https://www.youtube.com/embed/TxetDbbqZWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+		<iframe src="https://www.youtube.com/embed/TxetDbbqZWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div> </pre>
 
 	<pre><div class="video-responsive">
-		<frameborder src="https://www.youtube.com/embed/p92esPIJJmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+		<iframe src="https://www.youtube.com/embed/p92esPIJJmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div> </pre>
 
 	<pre><div class="video-responsive">
-		<frameborder src="https://www.youtube.com/embed/cj-k2sQXcds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+		<iframe src="https://www.youtube.com/embed/cj-k2sQXcds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div> </pre>
 
 	<pre><div class="video-responsive">
-		<frameborder src="https://www.youtube.com/embed/H6tY-fm7hMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+		<iframe src="https://www.youtube.com/embed/H6tY-fm7hMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div> </pre>
 
 	<pre><div class="video-responsive">
-		<frameborder src="https://www.youtube.com/embed/Rf1PwkTxRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+		<iframe src="https://www.youtube.com/embed/Rf1PwkTxRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div> </pre>
 
 	<pre><div class="video-responsive">
-		<frameborder src="https://www.youtube.com/embed/9pcATg8azy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+		<iframe src="https://www.youtube.com/embed/9pcATg8azy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div> </pre>
-
-	
-
-
-		        
-
-
-
-
-
-
-
-
-
 
 
        

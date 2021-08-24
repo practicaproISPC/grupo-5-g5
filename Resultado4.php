@@ -57,7 +57,7 @@
     <h4> Ahora le queremos invitar a que mire con detenimiento el siguiente video: </h4> 
 
 	<pre><div class="video-responsive">
-		<frameborder src="https://www.youtube.com/embed/gmhATSKXDOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+		<iframe src="https://www.youtube.com/embed/gmhATSKXDOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div></pre>
 
 	<p> ¿Se sintió identificado? Seguramente en algún puntos sí. Esto es a lo que, de ROBERT KIYOSAKI, llamo la carrera de la rata. Es una situación muy común, tal vez la más común de todas. Estás en este punto cuando te quejas de tu sueldo o sientes que no te alcanza el dinero, si sueles pedir adelantos, o usar tu tarjeta de crédito al límite, si te cuesta diferenciar entre lujo y necesidad, o si ante una situación estresante en lo que primero que piensas es en ir de compras. </p>
@@ -88,7 +88,7 @@
 	<p> Veamos esto con el ejemplo de la heladera. Supongamos que en el último año la inflación en mi país fue del 47%. Entonces este año debería ahorrar 147 dólares para mi nueva heladera. El próximo año deberé hacer lo mismo. Ir actualizando mis cálculos con la inflación. </p>
 	<p> Obviamente esto va ser un cálculo aproximado. Ya que la inflación es muy difícil de medir y en algunos productos impacta más que en otros. Incluso puede ser impredecible. Pero esta sería la teoría en líneas generales. </p>
 	<h2> La meta sería que puedas dividir tus gastos aplicando la regla 50/30/20 </h2>
-	<IMG class="imagen" SRC="images/rata2.jpg" alt="rata queso" width="300px" height="220px" ALIGN=LEFT>  <br>
+	<IMG class="imagen" SRC="images/rata2.jpg" alt="rata queso" width="250px" height="200px" ALIGN=LEFT>  <br><br>
 	<p> El 50% del dinero de tu sueldo lo tienes que dedicar a gastos básicos. Estos se van en la hipoteca o alquiler, servicios como luz, gas, internet, alimentos, etc. Son gastos que tienes que llevar a cabo sí o sí. Por eso abarcan el 50% de tu sueldo, para prevenir. Si te sobra dinero, mucho mejor. No lo gastes en cosas innecesarias y súmalo al porcentaje de ahorro. </p>
 	<p> El 30% va destinado a gastos personales. Es decir, todo aquello que puedas hacer durante el mes. Quizá compres algo de ropa, otro mes puedes gastarlo en más actividades de ocio, en viajar o algún otro gusto que desees darte. Recuerda que si te sobra debes sumarlo al porcentaje de ahorro. </p>
 	<p> Un 20% del dinero que ganas tiene que ir dedicado al ahorro. Es una excelente práctica la de “pagarte primero”, es decir antes de gastar nada apartar el 20%. De aquí saldrán las compras planificadas que  mencionamos anteriormente, la amortización de tus bienes, y también un fondo de emergencia por cualquier contrariedad. </p> <br>

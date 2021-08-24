@@ -76,7 +76,7 @@
 	<p> Aquí encontrarás ejemplos de cómo hacerlo: </p> <br>
 
 	<pre><div class="video-responsive">
-	<frameborder src="https://www.youtube.com/embed/xnDpXyRsKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></frameborder>
+	<iframe src="https://www.youtube.com/embed/xnDpXyRsKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div> </pre>
 
      <h2> 5 - Acelera el proceso con un Ingreso Extra. </h2>   
