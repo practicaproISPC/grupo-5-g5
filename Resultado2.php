@@ -75,9 +75,11 @@
 	<p> En tercer instancia nos fijaremos en el resto, aquellas que poseen un plazo parecido o igual, con estas implementaremos el método Bola de Nieve. Esto es, en pocas palabras, liquidar lo más rápido posible el préstamo más pequeño que tengas. Una vez que hayas pagado esa deuda, podrás destinar el dinero que usabas para ese pago para la siguiente deuda más pequeña y así sucesivamente. </p>
 	<p> Aquí encontrarás ejemplos de cómo hacerlo: </p> <br>
 
-	<pre><div class="video-responsive">
-	<iframe src="https://www.youtube.com/embed/xnDpXyRsKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div> </pre>
+	<div class="delimitador">
+		<div class="video-responsive">
+			<iframe src="https://www.youtube.com/embed/xnDpXyRsKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div> 
+	</div> <br>
 
      <h2> 5 - Acelera el proceso con un Ingreso Extra. </h2>   
 	<p> Aquí te invitamos a pensar en si puedes aumentar tus ingresos de alguna manera. Por ejemplo quizás tengas algún hobbies como tocar un instrumento musical, ¿podrías dar clases los fines de semana? </p>

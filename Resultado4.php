@@ -56,9 +56,11 @@
 	<br> <h3> En primer lugar le <strong>felicitamos </strong> por no tener deudas que se le estén acumulando o saliendo de control. Excelente. Todo un logro en estos tiempos. </h3>
     <h4> Ahora le queremos invitar a que mire con detenimiento el siguiente video: </h4> 
 
-	<pre><div class="video-responsive">
-		<iframe src="https://www.youtube.com/embed/gmhATSKXDOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div></pre>
+	<div class="delimitador">
+		<div class="video-responsive">
+			<iframe src="https://www.youtube.com/embed/gmhATSKXDOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div> <br>
 
 	<p> ¿Se sintió identificado? Seguramente en algún puntos sí. Esto es a lo que, de ROBERT KIYOSAKI, llamo la carrera de la rata. Es una situación muy común, tal vez la más común de todas. Estás en este punto cuando te quejas de tu sueldo o sientes que no te alcanza el dinero, si sueles pedir adelantos, o usar tu tarjeta de crédito al límite, si te cuesta diferenciar entre lujo y necesidad, o si ante una situación estresante en lo que primero que piensas es en ir de compras. </p>
 	<p> En el libro “Padre Rico Padre Pobre” encontrarás más puntos que te ayudarán a evaluarte. Pero básicamente podemos decir que es la sensación de ir tras el dinero. Tener gastado el sueldo antes de ganarlo por haber comprado a crédito. Es decir, tus gastos crecen al mismo ritmo que tus ganancias, por lo que EL DINERO SIEMPRE PARECE NO ALCANZAR. </p> 
