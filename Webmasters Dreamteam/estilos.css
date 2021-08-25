@@ -240,12 +240,16 @@ figure {
     margin: 0
 }
 img {
-    vertical-align: middle
+    vertical-align: middle	
 }
+img {
+	height: auto;
+	max-width: 100%;
+	}
 .img-responsive {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 .img-rounded {
     border-radius: 4px
@@ -305,7 +309,7 @@ hr {
     color: #777
 }
 .h1, .h2, .h3, h1, h2, h3 {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 12.5px
 }
 .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
@@ -3791,11 +3795,11 @@ button.close {
     margin-bottom: 30px
 }
 .hero-full-container {
-    padding: 20% 0
+    padding: 25% 0
 }
 @media (min-width:992px) {
     .hero-full-container {
-        padding: 15% 0
+        padding: 5% 0
     }
 }
 .hero-container {
@@ -3892,7 +3896,7 @@ button.close {
     font-weight: 700
 }
 .h1, h1 {
-    margin-bottom: 25px
+    margin-bottom: 10px
 }
 .h1:after, h1:after {
     display: none
