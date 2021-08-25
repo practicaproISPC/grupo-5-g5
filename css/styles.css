@@ -220,6 +220,10 @@ img {
 }
 
 
+.delimitador{ /* para hacer un contenedor para el video asi esta más chico y alineado */
+	width:70%;
+	margin:auto;
+}
 .video-responsive {
 	position: relative;
 	padding-bottom: 56.25%; /* 16/9 ratio */
