@@ -59,6 +59,56 @@
 
 
 
+			<table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+						<th>Apellido</th>
+						<th>Email</th>
+						<th>Teléfono</th>
+						<th>Domicilio</th>
+						<th>Consulta</th>
+                    </tr>
+                </thead>
+                 
+                <tbody> 
+					<?php 
+						include ('db.php');
+						$base = new Database();
+						$listado=$base->readUsuarios();
+						while ($row=mysqli_fetch_object($listado)){
+							/*printf ("%s (%s)\n", $row->nombre, $row->apellido);*/
+							$id=$row->id_visitante;
+							$nombre=$row->nombre;
+							$apellido = $row->apellido;
+							$email = $row->email;
+							$telefono = $row->telefono;
+							$domicilio = $row->domicilio;
+							$consulta = $row->consulta;
+						
+					?>
+						<tr>
+							<td><?php echo $nombre;?></td>
+							<td><?php echo $apellido;?></td>
+							<td><?php echo $email;?></td>
+							<td><?php echo $telefono;?></td>
+							<td><?php echo $domicilio;?></td>
+							<td><?php echo $consulta;?></td>
+							<!--
+							<td>
+								<a href="clienteEditar.php?id=<?php echo $id;?>" class="btn btn-theme" title="Editar" data-toggle="tooltip"><i class="icon-edit"></i>Editar</a>
+								<a href="clienteVerUno.php?id=<?php echo $id;?>" class="btn btn-theme" title="Ver" data-toggle="tooltip"><i class="icon-folder-open-alt"></i>Ver</a>
+								<a href="clienteEliminar.php?id=<?php echo $id;?>" class="btn btn-danger" title="Eliminar"><i class="icon-remove"></i>Eliminar</a>
+							</td>
+							-->
+						</tr>	
+					<?php
+						}
+					?>
+                          
+                </tbody>
+            </table>
+
 
     
 

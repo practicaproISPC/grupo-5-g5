@@ -29,6 +29,13 @@
 			return $res;
 		
 		}
+		
+		
+		public function readUsuarios(){
+			$sql = "SELECT * FROM visitantes";
+			$res = mysqli_query($this->con, $sql);
+			return $res;
+		}
 	
 
 		
