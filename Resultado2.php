@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,7 +55,7 @@
 	
 	<br> <p> En primer lugar queremos felicitarte por ser ordenado con tu dinero, en el sentido de que sabes muy bien cuánto ganas, cuánto gastas y en qué gastas tu dinero. Esa es la base. Así que haces un buen trabajo controlando o registrando el flujo de tu dinero. </p>
 	<p> Ahora es el momento de darle atención urgente a este aspecto. Quizás por la inestabilidad económica de tu país o la pandemia o algún otro problema de salud o cualquier otra razón te has comprometido a pagar montos de dinero que no están dentro de tu poder adquisitivo. No te preocupes. No eres el único. Aquí 5 pasos que han ayudado a muchos a salir de deudas. </p>
-	<IMG SRC="images/mental.jpg" alt="mente" width="300px" height="300px" ALIGN=RIGHT>
+	<img src="images/mental.jpg" alt="mente" width="300" height="300" ALIGN= right>
 	<h2> 1 - Mentalidad </h2>
 	<p> Como todo en la vida se empieza por los pensamientos. Prométete a ti mismo una vida libre. No te resignes. No te digas “no puedo”. Con educación y una buena planificación lo vas a lograr. De hecho piensa en todas las circunstancias difíciles que has superado a lo largo de tu vida que en un principio parecían imposibles pero lo lograste. Con esto también podrás. </p>
 	<p> No permitas que estas circunstancias temporales minen tu autoestima. Tu valía no pasa por los números de tu cuenta bancaria. Si permites que esto impacte negativamente en tu persona te faltarán fuerzas para revertir la situación, comprometerás tu salud física, tu bienestar emocional y tus relaciones familiares. No pierdas el control de tu vida. ¡Enfócate! <strong>  Es una circunstancia temporal con la que podrás lidiar.</strong> </p>
@@ -66,18 +66,18 @@
 
 	<p> Cuando los tengas identificados, suprímelos y ese monto apártalo como ahorro mensual. Te sorprenderás al ver el dinero ahorrado que tendrás al cabo de un año. </p> <br>
 	<h2> 3 - Anota y Ordena tus Deudas </h2> 
-	<IMG class="imagen" SRC="images/trabajoE.jpg" alt="pareja anotando gastos" width="300px" height="220px" ALIGN=LEFT>  <br>
+	<img class="imagen" SRC="images/trabajoE.jpg" alt="pareja anotando gastos" width="300" height="220" ALIGN= left>  <br>
 	<p> Quizás no quieras hacerlo porque te genere sentimientos negativos pero es el primer paso para poder presupuestar. No es darle vueltas a algo negativo, sino sentarte a anotar todas tus deudas y que queden en esa hoja, no en tu mente. Míralo como una forma de aliviar el peso de tus inquietudes. Como quien lleva una mochila, llega a su casa y saca algunas cosas de la misma y las deja sobre una mesa, luego sigue caminando a su cuarto. </p>
 	<p> Hacerlo te permitirá estar enfocado. Sentirás un pequeño alivio. Una aclaración, no olvides anotar también los préstamos de amigos. </p>
 	<br> <h2> 4 - Método Bola de Nieve </h2>	
 	<p> Ahora llegó el momento de ordenar la lista anterior. En primer lugar, debes colocar las que afectan las necesidades básicas de tu familia, ejemplo alquiler, luz, etc. </p>
 	<p> En segundo lugar, las que tienen un plazo menor, es decir dispones de menos tiempo para cancelarlas. A estas las pagaremos con lo ahorrado gracias al punto dos. Esto es muy importante ya que este tipo de  deudas suelen tener una elevada tasa de interés. </p>
 	<p> En tercer instancia nos fijaremos en el resto, aquellas que poseen un plazo parecido o igual, con estas implementaremos el método Bola de Nieve. Esto es, en pocas palabras, liquidar lo más rápido posible el préstamo más pequeño que tengas. Una vez que hayas pagado esa deuda, podrás destinar el dinero que usabas para ese pago para la siguiente deuda más pequeña y así sucesivamente. </p>
-	<p> Aquí encontrarás ejemplos de cómo hacerlo: </p> <br>
+	<p> Aquí encontrarás ejemplos de cómo hacerlo: </p> <br><br>
 
 	<div class="delimitador">
 		<div class="video-responsive">
-			<iframe src="https://www.youtube.com/embed/xnDpXyRsKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<embed src="https://www.youtube.com/embed/xnDpXyRsKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 		</div> 
 	</div> <br>
 
@@ -87,6 +87,7 @@
 	<p> A algunas personas les ha ido muy bien con los ingresos pasivos, ejemplo venta de ebooks, blog, canal de youtube, etc. Pero ten en cuenta que normalmente ver resultados en esto toma bastante tiempo. No te dejes engañar por las publicidades de hacerte rico rápido. Recuerda que no estás en condiciones financieras para invertir. Primero debes cancelar tus deudas, luego construir un ahorro y finalmente invertir. </p>
 	<br> <p class="resaltado"> <strong> Es un trabajo arduo pero bien vale la pena. Te sentirás realizado y feliz contigo mismo al librarte de las deudas. <br> Cuando lo consigas (sí, estamos seguros de que lo lograrás) te invitamos a volver y realizar nuevamente el test <br> así descubrirás cómo llevar tus finanzas al siguiente nivel. 
 		</strong> </p>
+	<br>
 
 
 
@@ -97,11 +98,6 @@
 
 
 
-
-       
-
-
-	
 
 	
 	<!-- FOOTER -->
