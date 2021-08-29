@@ -5,7 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,7 +54,7 @@
 	<!-- HEADER ENDS -->
 	<br> <p> <strong> Felicitaciones</strong> por estar tan cerquita de tu libertad financiera. No tienes deudas innecesarias, te apegas a un presupuesto, controlas tus gastos, tienes ahorros. Es verdaderamente excelente. Un gran logro. Reiteramos nuestras más sinceras felicitaciones, la mayoría de las personas no lo consigue. </p>
 	<p> Ahora estás en condiciones de dar el siguiente paso para alcanzar la tan anhelada libertad financiera, es decir poder vivir sin trabajar. Y aunque no lo creas, no es un sueño, de hecho muchas personas ya viven así. </p> <br>
-	<figure> <img src="images/exito.jpg" alt="mujer saltando exito" width="600px" height="400px" /> <figcaption> ¡¡¡ Felicidades !!! </figcaption> </figure> <br>
+	<figure> <img src="images/exito.jpg" alt="mujer saltando exito" width="600" height="400" /> <figcaption> ¡¡¡ Felicidades !!! </figcaption> </figure> <br>
 	<p> Para lograrlo implementaremos la regla 90/10. Esto consiste en que te acostumbres a vivir con el 90 porciento de tus ingresos. Es decir si ganas 100 has de cuenta que ganaste 90 y a esos 90 aplícales la regla del 50/30/20 </p>
 	<p> El 50% del dinero de tu sueldo lo tienes que dedicar a gastos básicos. Estos se van en la hipoteca o alquiler, servicios como luz, gas, internet, alimentos, etc. Son gastos que tienes que llevar a cabo sí o sí. Por eso abarcan el 50% de tu sueldo, para prevenir. Si te sobra dinero, mucho mejor. No lo gastes en cosas innecesarias y súmalo al porcentaje de ahorro. </p>
 	<p> El 30% va destinado a gastos personales. Es decir, todo aquello que puedas hacer durante el mes. Quizá compres algo de ropa, otro mes puedes gastarlo en más actividades de ocio, en viajar o algún otro gusto que desees darte. Recuerda que si te sobra debes sumarlo al porcentaje de ahorro. </p>
@@ -71,35 +71,35 @@
 	<p> Recuerda siempre “las cosas no se pagan con dinero, se pagan con tiempo”. Quizás esta fue la gran verdad que nos enseñó la pandemia del covid 19. Vale la pena todo esfuerzo que realices por invertir en tu futuro, por invertir en tu libertad. </p> <br>
 	
 	<p class="resaltado"> <strong>  Como regalo final te dejamos algunos resúmenes de libros que te ayudarán a mantener <br> la mentalidad correcta y la motivación a tope. <br> ¡Que los disfrutes! </strong> </p> <br> 
-	
+	<br>
 <div class="delimitador">
 	<div class="video-responsive">
-		<iframe src="https://www.youtube.com/embed/HXKgIErgjzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div> <br>
+		<embed src="https://www.youtube.com/embed/HXKgIErgjzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</div> <br><br>
 
 	<div class="video-responsive">
-		<iframe src="https://www.youtube.com/embed/TxetDbbqZWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div> <br>
+		<embed src="https://www.youtube.com/embed/TxetDbbqZWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</div> <br><br>
 
 	<div class="video-responsive">
-		<iframe src="https://www.youtube.com/embed/p92esPIJJmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div> <br>
+		<embed src="https://www.youtube.com/embed/p92esPIJJmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</div> <br><br>
 
 	<div class="video-responsive">
-		<iframe src="https://www.youtube.com/embed/cj-k2sQXcds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div> <br>
+		<embed src="https://www.youtube.com/embed/cj-k2sQXcds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</div> <br><br>
 
 	<div class="video-responsive">
-		<iframe src="https://www.youtube.com/embed/H6tY-fm7hMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div><br>
+		<embed src="https://www.youtube.com/embed/H6tY-fm7hMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</div><br><br>
 
 	<div class="video-responsive">
-		<iframe src="https://www.youtube.com/embed/Rf1PwkTxRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div> <br>
+		<embed src="https://www.youtube.com/embed/Rf1PwkTxRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</div> <br><br>
 
 	<div class="video-responsive">
-		<iframe src="https://www.youtube.com/embed/9pcATg8azy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div> <br>
+		<embed src="https://www.youtube.com/embed/9pcATg8azy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</div> <br><br>
 
 </div>
 
