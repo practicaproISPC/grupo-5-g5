@@ -43,8 +43,8 @@
 			<div class="row text-center">
 				<div class="col-md-8">
 					<!--<img class="logo" src="images/logo.png" />-->
-					<h1 class="white-text">Test de finanzas personales</h1>
-					<h3 class="white-text">Te contamos los beneficios de administrar correctamente el dinero</h3>
+					<h1 class="white-text">Test de Finanzas Personales</h1>
+					<h2 class="white-text">Ingreso Usuarios</h2>
 					<div id="countdown" class="white-text"></div>
 				</div>
 			</div>
@@ -55,30 +55,6 @@
 	</section>
 <!-- HEADER ENDS -->
 		
-		    <?php
-			include ("db.php");
-			/*
-			$persona= new Database();
-			if(isset($_POST) && !empty($_POST)){
-				$nombre = $persona->sanitize($_POST['nombre']);
-				$apellido = $persona->sanitize($_POST['apellido']);
-				$mail = $persona->sanitize($_POST['email']);
-				$telefono = $persona->sanitize($_POST['telefono']);
-				$domicilio = $persona->sanitize($_POST['domicilio']);
-				$consulta = $persona->sanitize($_POST['consulta']);
-				
-				$res = $persona->createCliente($nombre, $apellido, $mail, $telefono, $domicilio, $consulta);
-				echo $res;
-				if($res){
-					echo "Datos insertados con éxito";
-					header('Location: Test.php');
-				}else{
-					echo "No se pudieron insertar los datos";
-				}
-			}
-			*/
-					
-		?>
 
 	<!--FORMULARIO DATOS PERSONALES/ ACCESO -->
     
@@ -86,28 +62,29 @@
             
         <main>
         <div class="login">
-        <form  method="post" >
+        <form ACTION="comprueba_login.php"  method="post" >
 
     
             
             <label for="usuario">Usuario:</label><br>
             <input type="text" name="usuario" id="usuario" required><br>
             
-			<div style="display:inline">
-			<span class="inline">
+    <div style="display:inline">
+		<span class="inline">
             <label for="pass">Contraseña:</label><br>
             <input type="password" name="pass" id="pass" required>
-			</span>
-			<span class="inline">
+		</span>
+		<span class="inline">
 			<button class="btn btn-primary" id="verCon" type="button" onclick="mostrarContrasena()"><i class="fa fa-eye-slash" aria-hidden="true"></i></button>
-			</span>
-			</div>
+		</span>
+	</div>
+
            <!--
             <label for="email">Email:</label><br>
             <input type="email" name="email" required><br>-->
    
 			<section class="botonEnviar">
-				<button type="submit"><b>Enviar</b></button>
+				<button type="submit" value="Login"><b>Enviar</b></button>
 			</section>
 			<br><br><br>
 			
@@ -131,6 +108,8 @@
 	
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Funciones del form datos de contacto-->
+		<script src="js/datosContacto.js"></script>
 		<!-- Funciones de adminLoggin-->
 		<script src="js/adminLoggin.js"></script>
 		
