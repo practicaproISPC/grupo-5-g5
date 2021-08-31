@@ -58,7 +58,7 @@
 
 	<!--FORMULARIO DATOS PERSONALES/ ACCESO -->
     
-        <h1>Loggin administrador</h1>
+        <h1>Loggin Administrador</h1>
             
         <main>
         <div class="login">
@@ -82,18 +82,14 @@
            <!--
             <label for="email">Email:</label><br>
             <input type="email" name="email" required><br>-->
-   
-			<section class="botonEnviar">
-				<button type="submit" value="Login"><b>Enviar</b></button>
-			</section>
-			<br><br><br>
 			
-            
+		<button type="submit" value="Login"><b>Enviar</b></button>
+		
         </form>
 		</div>
         
         </main>
- 	
+		<br><br><br>
 	
 	<!--FIN FORMULARIO DATOS PERSONALES/ ACCESO-->
 	

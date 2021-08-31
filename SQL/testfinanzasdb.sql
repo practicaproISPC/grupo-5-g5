@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 31-08-2021 a las 13:55:20
+-- Tiempo de generación: 31-08-2021 a las 15:47:57
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -29,16 +29,18 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `usuario_log` (
   `id_user` int(11) NOT NULL AUTO_INCREMENT,
   `USUARIO` varchar(50) NOT NULL,
+  `EMAIL` varchar(100) NOT NULL,
   `CONTRA` varchar(50) NOT NULL,
   PRIMARY KEY (`id_user`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
 
 --
 -- Volcado de datos para la tabla `usuario_log`
 --
 
-INSERT INTO `usuario_log` (`id_user`, `USUARIO`, `CONTRA`) VALUES
-(5, 'usuario', 'cambiar1234');
+INSERT INTO `usuario_log` (`id_user`, `USUARIO`, `EMAIL`, `CONTRA`) VALUES
+(5, 'usuario', 'contacto@dreamteam.com', 'cambiar1234'),
+(8, 'emi', 'emiludu@gmail.com', '1234');
 
 -- --------------------------------------------------------
 
