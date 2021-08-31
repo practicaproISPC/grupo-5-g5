@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 14-08-2021 a las 22:28:30
+-- Tiempo de generación: 31-08-2021 a las 13:55:20
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -23,6 +23,26 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `usuario_log`
+--
+
+CREATE TABLE IF NOT EXISTS `usuario_log` (
+  `id_user` int(11) NOT NULL AUTO_INCREMENT,
+  `USUARIO` varchar(50) NOT NULL,
+  `CONTRA` varchar(50) NOT NULL,
+  PRIMARY KEY (`id_user`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Volcado de datos para la tabla `usuario_log`
+--
+
+INSERT INTO `usuario_log` (`id_user`, `USUARIO`, `CONTRA`) VALUES
+(5, 'usuario', 'cambiar1234');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `visitantes`
 --
 
@@ -38,7 +58,14 @@ CREATE TABLE IF NOT EXISTS `visitantes` (
   KEY `id_visitante` (`id_visitante`),
   KEY `nombre` (`nombre`,`apellido`,`email`,`telefono`,`domicilio`,`consulta`),
   KEY `id_visitante_2` (`id_visitante`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
+
+--
+-- Volcado de datos para la tabla `visitantes`
+--
+
+INSERT INTO `visitantes` (`id_visitante`, `nombre`, `apellido`, `email`, `telefono`, `domicilio`, `consulta`) VALUES
+(12, 'guada', 'dsgadg', 'guadamongebarale@gmail.com', 3644559255, '', '');
 
 -- --------------------------------------------------------
 
@@ -68,13 +95,6 @@ CREATE TABLE IF NOT EXISTS `visitas` (
 --
 ALTER TABLE `visitantes`
   ADD CONSTRAINT `visitantes_ibfk_1` FOREIGN KEY (`id_visitante`) REFERENCES `visitantes` (`id_visitante`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Filtros para la tabla `visitas`
---
-ALTER TABLE `visitas`
-  ADD CONSTRAINT `visitas_ibfk_1` FOREIGN KEY (`id_visita`) REFERENCES `visitas` (`id_visitante`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `visitas_ibfk_2` FOREIGN KEY (`id_visitante`) REFERENCES `visitantes` (`id_visitante`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
