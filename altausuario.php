@@ -68,37 +68,31 @@
 
 	<!--FORMULARIO DATOS PERSONALES/ ACCESO -->
     
-        <h1>Alta Nuevo Administrador</h1>
+        <h1>Alta de un nuevo administrador</h1>
             
         <main>
         <div class="login">
         <form ACTION="alta.php"  method="post" >
-
-    
+			
             
             <label for="usuario">Usuario:</label><br>
             <input type="text" name="user" id="user" required><br>
-
-
+			
+			<label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required><br><br>
             
             <label for="pass">Contraseña:</label><br>
-            <input type="password" name="pas" id="pas" required><br>
+            <input type="password" name="pas" id="pas" required><br><br>
 
-
-           <!--
-            <label for="email">Email:</label><br>
-            <input type="email" name="email" required><br>-->
-   
-			<section class="botonEnviar">
-				<button type="submit" value="alta"><b>Registrar</b></button>
-			</section>
-			<br><br><br>
+			<button type="submit" value="alta"><b>Registrar</b></button>
+			
 			
             
         </form>
 		</div>
         
         </main>
+		<br><br><br><br><br>
  	
 	
 	<!--FIN FORMULARIO DATOS PERSONALES/ ACCESO-->
