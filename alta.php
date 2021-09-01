@@ -18,10 +18,10 @@ try {
     $resultado ->execute( array (":user"=>$usuario, ":email"=>$email, ":pas"=>$contrasenia));
 
 
-    header ("location:vistaCliente.php");
-    echo "<script> alert ('Registro Exitoso');</script>";
- 
-
+	echo "Se dió de alta al admin con éxito; redireccionando...";
+	echo"<script>setTimeout(\"location.href = 'altausuario.php';\",1500);</script>";
+	
+	
 
 }catch (Exception $e){
 
