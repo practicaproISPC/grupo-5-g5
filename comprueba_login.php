@@ -1,6 +1,6 @@
 <?php
 
-
+    header("Content-Type: text/html;charset=utf-8"); //Para corregir ñ y acentos
 
 try {
 
@@ -27,10 +27,12 @@ try {
         header ("location:vistaCliente.php");
 
     }else{
-
-        header ("location:adminloggin.php");
-
-
+        echo '<script>';
+				echo 'alert("Datos de acceso incorrectos. \nSi olvidaste tu nombre de usuario o contraseña envíanos un mail a contacto@dreamteam.com");';
+				echo 'window.location.href="adminloggin.php";';
+			echo '</script>';
+        //header ("location:adminloggin.php");
+        
 
     }
 
