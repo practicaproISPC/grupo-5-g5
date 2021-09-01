@@ -44,7 +44,7 @@
 					<div class="col-md-8">
 						<!--<img class="logo" src="images/logo.png" />-->
 						<h1 class="white-text">Test de Finanzas Personales</h1>
-						<h2 class="white-text">Acceso Administrador</h2>
+						<h2 class="white-text">Administradores</h2>
 						<div id="countdown" class="white-text"></div>
 					</div>
 				</div>
@@ -68,13 +68,20 @@
 		
 
 		
-				<a  class="botonEnviar" href="cerrar.php"><b>Cerrar Sesion</b></a> 
+				<a  class="botonEnviar" href="cerrar.php"><b>Cerrar Sesion</b></a>
+                
+                <a  class="botonEnviar" href="altausuario.php"><b>Alta Administrador</b></a> 
 		
-			
-				<a  class="botonEnviar" href="administradores.php"><b>Administradores</b></a> 
+				<a  class="botonEnviar" href="vistaCliente.php"><b>Inicio Administradores</b></a> 
 		
 		
+		<?php
 
+		include("conexion.php");
+		$conexion=$base->query("SELECT * FROM usuario_log");
+		$registros=$conexion->fetchAll(PDO::FETCH_OBJ);
+		
+		?>
 	
 
 
@@ -82,49 +89,32 @@
 			<table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>Nombre</th>
-						<th>Apellido</th>
+                        <th>Id</th>
+						<th>Nombre</th>
 						<th>Email</th>
-						<th>Teléfono</th>
-						<th>Domicilio</th>
-						<th>Consulta</th>
+						<th>Contraseña</th>
                     </tr>
                 </thead>
+
+		<?php
+		foreach($registros as $administrador):?>
+
+
+			<tr>
+				<td><?php echo $administrador->id_user?></td>
+				<td><?php echo $administrador->USUARIO?></td>
+				<td><?php echo $administrador->EMAIL?></td>
+				<td><?php echo $administrador->CONTRA?></td>
+				<td class='button'><a href="bajauser.php?Id=<?php echo $administrador->id_user?>"><input type='button' name='del' value='Borrar'></a></td>
+				<td class='button'><input type='button' name='up' value='Modificar'></td>
+		</tr>
                  
-                <tbody> 
-					<?php 
-						include ('db.php');
-						$base = new Database();
-						$listado=$base->readUsuarios();
-						while ($row=mysqli_fetch_object($listado)){
-							/*printf ("%s (%s)\n", $row->nombre, $row->apellido);*/
-							$id=$row->id_visitante;
-							$nombre=$row->nombre;
-							$apellido = $row->apellido;
-							$email = $row->email;
-							$telefono = $row->telefono;
-							$domicilio = $row->domicilio;
-							$consulta = $row->consulta;
-						
-					?>
-						<tr>
-							<td><?php echo $nombre;?></td>
-							<td><?php echo $apellido;?></td>
-							<td><?php echo $email;?></td>
-							<td><?php echo $telefono;?></td>
-							<td><?php echo $domicilio;?></td>
-							<td><?php echo $consulta;?></td>
-							<!--
-							<td>
-								<a href="clienteEditar.php?id=<?php echo $id;?>" class="btn btn-theme" title="Editar" data-toggle="tooltip"><i class="icon-edit"></i>Editar</a>
-								<a href="clienteVerUno.php?id=<?php echo $id;?>" class="btn btn-theme" title="Ver" data-toggle="tooltip"><i class="icon-folder-open-alt"></i>Ver</a>
-								<a href="clienteEliminar.php?id=<?php echo $id;?>" class="btn btn-danger" title="Eliminar"><i class="icon-remove"></i>Eliminar</a>
-							</td>
-							-->
-						</tr>	
-					<?php
-						}
-					?>
+    <?php
+		endforeach;
+		
+	?>
+		
+		
                           
                 </tbody>
             </table>	

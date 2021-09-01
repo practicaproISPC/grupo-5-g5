@@ -64,9 +64,14 @@
 
 		
 	?>
+				<a  class="botonEnviar" href="cerrar.php"><b>Cerrar Sesion</b></a>
+                
+                <a  class="botonEnviar" href="administradores.php"><b>Volver</b></a> 
 		
+				<a  class="botonEnviar" href="vistaCliente.php"><b>Inicio Administradores</b></a> 
 
 	<!--FORMULARIO DATOS PERSONALES/ ACCESO -->
+
     
         <h1>Alta de un nuevo administrador</h1>
             
