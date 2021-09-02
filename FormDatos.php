@@ -54,8 +54,8 @@
 	</section>
 <!-- HEADER ENDS -->
 		
-		    <?php
-			include ("db.php");
+		<?php
+		include ("db.php");
 			$persona= new Database();
 			if(isset($_POST) && !empty($_POST)){
 				$nombre = $persona->sanitize($_POST['nombre']);
@@ -64,16 +64,30 @@
 				$telefono = $persona->sanitize($_POST['tel']);
 				$domicilio = $persona->sanitize($_POST['domicilio']);
 				$consulta = $persona->sanitize($_POST['consulta']);
-				
+
+			$check=$persona->checkingresos($mail,$telefono);
+			print ( $check==0 );
+			if ($check == 0){
 				$res = $persona->createCliente($nombre, $apellido, $mail, $telefono, $domicilio, $consulta);
-				echo $res;
-				if($res){
-					echo "Datos insertados con éxito";
-					header('Location: Test.php');
-				}else{
-					echo "No se pudieron insertar los datos";
-				}
+					echo $res;
+					if($res){
+						echo "Datos insertados con éxito";
+						mysqli_close($con);
+						header('Location: Test.php');
+					}else{
+						echo "No se pudieron insertar los datos";
+					}
+				
+			
+			}else{
+				echo "Los Datos ya están en la Base";
+				mysqli_close($con);
+				header('Location: Test.php');
+						
+					
 			}
+		}
+
 					
 		?>
 

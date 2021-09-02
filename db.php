@@ -53,6 +53,14 @@
 			$devolver= mysqli_fetch_array($res);
 			return $devolver;
 		}
+
+		public function checkingresos($emailCliente,$telefonoCliente){
+			$sql= "SELECT * FROM visitantes WHERE email='$emailCliente' AND telefono='$telefonoCliente'";
+			$res =	mysqli_query ($this->con , $sql);
+			$check = mysqli_num_rows($res);
+			return $check;
+
+		}
 	
 	}
 		
