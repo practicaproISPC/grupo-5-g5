@@ -30,7 +30,8 @@
 			return $res;
 		
 		}
-	
+		
+
 
 		public function readUsuarios(){
 			$sql = "SELECT * FROM visitantes";
@@ -38,10 +39,28 @@
 			return $res;
 		}
 		
+				
+		public function updateUsuario($idUsuario,$usuario, $mail, $pass){
+			$sql = "UPDATE `usuario_log` SET `USUARIO` = '".$usuario."', `EMAIL` = '".$mail."', `CONTRA` = '".$pass."' WHERE `usuario_log`.`id_user` = ".$idUsuario; 
+			$devolver = mysqli_query($this->con , $sql);
+			return $devolver;
+		}
 		
+		
+		public function singleRecordUsuario($id){
+			$sql = "SELECT * FROM `usuario_log` WHERE `id_user`=".$id;
+			$res = mysqli_query($this->con , $sql);
+			$devolver= mysqli_fetch_array($res);
+			return $devolver;
+		}
+	
 	}
 		
-		
+/*		
+$base = new Database();
+$base->updateUsuario(10, 'fleiva', 'fran@gmail.com', '1234');  
+*/
 
 
 ?>
+

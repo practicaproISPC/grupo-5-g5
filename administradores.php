@@ -106,8 +106,8 @@
 				<td><?php echo $administrador->EMAIL?></td>
 				<td><?php echo $administrador->CONTRA?></td>
 				<td class='button'><a href="bajauser.php?Id=<?php echo $administrador->id_user?>"><input type='button' name='del' value='Borrar'></a></td>
-				<td class='button'><input type='button' name='up' value='Modificar'></td>
-		</tr>
+				<td class='button'><a  href="modificacionUsuario.php?Id=<?php echo $administrador->id_user?>"><input type='button' name='up' value='Modificar'></td>
+			</tr>
                  
     <?php
 		endforeach;
