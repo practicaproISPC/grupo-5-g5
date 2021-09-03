@@ -1,4 +1,7 @@
 <?php
+
+	header("Content-Type: text/html;charset=utf-8"); //Para corregir ñ y acentos
+
 	class Database{
 		private $con;
 		private $dbhost="localhost";

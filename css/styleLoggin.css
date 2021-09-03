@@ -3,7 +3,7 @@ html { height: 100% }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 body { background-image: radial-gradient( cover, rgba(92,100,111,1) 0%,rgba(31,35,40,1) 100%), url('http://i.minus.com/io97fW9I0NqJq.png') }
 .login {
-  background: #eceeee;
+  background: #eceeee; 
   border: 1px solid #42464b;
   border-radius: 6px;
   height: 330px;
@@ -24,6 +24,7 @@ body { background-image: radial-gradient( cover, rgba(92,100,111,1) 0%,rgba(31,3
   text-align: center;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff;
 }
+
 input[type="text"] {
   background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
   border: 1px solid #a1a3a3;
@@ -145,3 +146,4 @@ label[for="usuario"]{
 span.inline{
 	display: inline;
 }
+

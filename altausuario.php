@@ -24,6 +24,8 @@
 		<!-- CUSTOM STYLING -->
 		<link href="css/styles.css" rel="stylesheet">
 		<link href="css/styleLoggin.css" rel="stylesheet">
+		<!-- CSS MENU LOGGIN -->
+		<link href="css/styleMenuLoggin.css" rel="stylesheet">
 		<!-- PRELOADER -->	
 		<link href="css/loader.css" rel="stylesheet">
 		
@@ -60,15 +62,15 @@
 			if(!isset($_SESSION["ingreso"])){
 				
 				header("location:adminloggin.php");
-			}
-
-		
+			}		
 	?>
-				<a  class="botonEnviar" href="cerrar.php"><b>Cerrar Sesion</b></a>
-                
-                <a  class="botonEnviar" href="administradores.php"><b>Volver</b></a> 
-		
-				<a  class="botonEnviar" href="vistaCliente.php"><b>Inicio Administradores</b></a> 
+
+		<!--MENU LOGGIN-->
+		<?php
+				// do php stuff
+				readfile('menuLog.php');
+			?>
+		<!--fIN MENU LOGGIN-->
 
 	<!--FORMULARIO DATOS PERSONALES/ ACCESO -->
 
