@@ -1,0 +1,40 @@
+.mainmenubtn {
+    background-color: #00d28f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:15px;
+    margin-top:5px;
+    box-shadow: 0px 1px 1px #828282;
+    border-radius: 25px;
+}
+.mainmenubtn:hover {
+    background-color: #18161d;
+    color: #7fffd4;
+}  
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #7fffd4;
+    min-width: 200px;
+    border-radius: 5px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-child a:hover {
+    background-color: #04eaa6;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}

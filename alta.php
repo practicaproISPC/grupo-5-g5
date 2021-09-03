@@ -1,4 +1,7 @@
 <?php
+
+    header("Content-Type: text/html;charset=utf-8"); //Para corregir ñ y acentos
+
 $usuario = $_POST["user"];
 $email = $_POST["email"];
 $contrasenia = $_POST["pas"];

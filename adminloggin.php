@@ -24,6 +24,8 @@
 		<!-- CUSTOM STYLING -->
 		<link href="css/styles.css" rel="stylesheet">
 		<link href="css/styleLoggin.css" rel="stylesheet">
+		<!-- CSS MENU LOGGIN -->
+		<link href="css/styleMenuLoggin.css" rel="stylesheet">
 		<!-- PRELOADER -->	
 		<link href="css/loader.css" rel="stylesheet">
 		

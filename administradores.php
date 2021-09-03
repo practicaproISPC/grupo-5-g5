@@ -23,6 +23,8 @@
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<!-- CUSTOM STYLING -->
 		<link href="css/styles.css" rel="stylesheet">
+		<!-- CSS MENU LOGGIN -->
+		<link href="css/styleMenuLoggin.css" rel="stylesheet">
 		<!-- PRELOADER -->	
 		<link href="css/loader.css" rel="stylesheet">
 		
@@ -62,17 +64,20 @@
 				
 				header("location:adminloggin.php");
 			}
-
-		
 		?>
 		
-
+		<!--MENU LOGGIN-->
+		<?php
+				// do php stuff
+				readfile('menuLog.php');
+			?>
+		<!--fIN MENU LOGGIN-->
 		
-				<a  class="botonEnviar" href="cerrar.php"><b>Cerrar Sesion</b></a>
+				<!-- <a  class="botonEnviar" href="cerrar.php"><b>Cerrar Sesion</b></a>
                 
                 <a  class="botonEnviar" href="altausuario.php"><b>Alta Administrador</b></a> 
 		
-				<a  class="botonEnviar" href="vistaCliente.php"><b>Inicio Administradores</b></a> 
+				<a  class="botonEnviar" href="vistaCliente.php"><b>Inicio Administradores</b></a>  -->
 		
 		
 		<?php
@@ -83,23 +88,25 @@
 		
 		?>
 	
-
+		<br><br><br>
 
 		<!--TABLA DE VISITANTES TRAIDA DE BD-->
 			<table class="table table-bordered">
-                <thead>
+                <thead style= "background-color: #7fffd4;">
                     <tr>
                         <th>Id</th>
 						<th>Nombre</th>
 						<th>Email</th>
 						<th>Contraseña</th>
+						<th></th>
+						<th></th>
                     </tr>
                 </thead>
 
 		<?php
 		foreach($registros as $administrador):?>
 
-
+			<tbody >
 			<tr>
 				<td><?php echo $administrador->id_user?></td>
 				<td><?php echo $administrador->USUARIO?></td>
@@ -107,15 +114,12 @@
 				<td><?php echo $administrador->CONTRA?></td>
 				<td class='button'><a href="bajauser.php?Id=<?php echo $administrador->id_user?>"><input type='button' name='del' value='Borrar'></a></td>
 				<td class='button'><a  href="modificacionUsuario.php?Id=<?php echo $administrador->id_user?>"><input type='button' name='up' value='Modificar'></td>
-			</tr>
-                 
+			</tr>       
     <?php
 		endforeach;
 		
 	?>
-		
-		
-                          
+
                 </tbody>
             </table>	
 			
@@ -127,7 +131,7 @@
 
 
 
-    
+        <br><br><br>
 
 	<!-- FOOTER -->
 	<?php

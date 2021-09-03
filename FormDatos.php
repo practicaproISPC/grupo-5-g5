@@ -55,6 +55,9 @@
 <!-- HEADER ENDS -->
 		
 		<?php
+
+		header("Content-Type: text/html;charset=utf-8"); //Para corregir ñ y acentos
+
 		include ("db.php");
 			$persona= new Database();
 			if(isset($_POST) && !empty($_POST)){

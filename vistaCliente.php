@@ -65,22 +65,26 @@
 
 		
 		?>
+		<!--MENU LOGGIN-->
+		<?php
+				// do php stuff
+				readfile('menuLog.php');
+			?>
+		<!--fIN MENU LOGGIN-->	
 		
-
-		
-				<a  class="botonEnviar" href="cerrar.php"><b>Cerrar Sesion</b></a> 
+				<!-- <a  class="botonEnviar" href="cerrar.php"><b>Cerrar Sesión</b></a> 
 		
 			
-				<a  class="botonEnviar" href="administradores.php"><b>Administradores</b></a> 
+				<a  class="botonEnviar" href="administradores.php"><b>Administradores</b></a>  -->
 		
 		
 
-	
-
+		
+		<br><br><br>
 
 		<!--TABLA DE VISITANTES TRAIDA DE BD-->
 			<table class="table table-bordered">
-                <thead>
+                <thead style= "background-color: #7fffd4;">
                     <tr>
                         <th>Nombre</th>
 						<th>Apellido</th>
@@ -128,7 +132,7 @@
                           
                 </tbody>
             </table>	
-			
+			<br><br><br>
 		<!--FIN TABLA DE VISITANTES TRAIDA DE BD-->
 
 	
