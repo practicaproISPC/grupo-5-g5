@@ -64,6 +64,12 @@
 			return $check;
 
 		}
+		
+		public function altaUsuario($usuario, $mail, $pass){
+			$sql = " INSERT INTO USUARIO_LOG (USUARIO, EMAIL, CONTRA) VALUES ('".$usuario."','".$mail."','".$pass."');";
+			$res =	mysqli_real_query ($this->con , $sql);
+			return $res;
+		}
 	
 	}
 		

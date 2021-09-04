@@ -67,10 +67,32 @@
 
 		<!--MENU LOGGIN-->
 		<?php
-				// do php stuff
 				readfile('menuLog.php');
 			?>
 		<!--fIN MENU LOGGIN-->
+		
+	<!--A base de datos-->
+		<?php
+
+			include ("db.php");
+			$base= new Database(); /*Esto que no sabía explicar, es la instanciación de la clase database que creamos en el otro archivo*/
+			if(isset($_POST) && !empty($_POST)){
+				$usuario = $base->sanitize($_POST['user']);  /*Estos llaman a una clase que escapa los caracteres especiales para no romper php*/
+				$email = $base->sanitize($_POST['email']);
+				$contrasenia = $base->sanitize($_POST['pas']); 
+				$res = $base->altaUsuario($usuario, $email, $contrasenia);	
+				if($res){
+					echo '<script language="javascript">alert("Usuario creado con éxito");</script>';
+				}else{
+					echo '<script language="javascript">alert("No se pudo dar el alta al usuario");</script>';
+				}
+			}
+			
+			/*Realmente no sé cuál de las dos formas es mejor*/
+			/*En el archivo alta.php ¿dónde se estaba cerrando la base de datos? */
+
+		?>
+
 
 	<!--FORMULARIO DATOS PERSONALES/ ACCESO -->
 
@@ -79,7 +101,7 @@
             
         <main>
         <div class="login">
-        <form ACTION="alta.php"  method="post" >
+        <form   method="post" >
 			
             
             <label for="usuario">Usuario:</label><br>
