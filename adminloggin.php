@@ -77,7 +77,7 @@
             <input type="password" name="pass" id="pass" required>
 		</span>
 		<span class="inline">
-			<button class="btn btn-primary" id="verCon" type="button" onclick="mostrarContrasena()"><i class="fa fa-eye-slash" aria-hidden="true"></i></button>
+			<button class="btn btn-primary" id="verCon" type="button" onclick="mostrarContrasena('pass')"><i class="fa fa-eye-slash" aria-hidden="true"></i></button>
 		</span>
 	</div>
 
@@ -108,7 +108,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Funciones del form datos de contacto-->
 		<script src="js/datosContacto.js"></script>
-		<!-- Funciones de adminLoggin-->
+		<!-- Funciones para forms admin-->
 		<script src="js/adminLoggin.js"></script>
 		
 	
