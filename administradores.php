@@ -112,8 +112,8 @@
 				<td><?php echo $administrador->USUARIO?></td>
 				<td><?php echo $administrador->EMAIL?></td>
 				<td><?php echo $administrador->CONTRA?></td>
-				<td class='button'><a href="bajauser.php?Id=<?php echo $administrador->id_user?>"><input type='button' name='del' value='Borrar'></a></td>
-				<td class='button'><a  href="modificacionUsuario.php?Id=<?php echo $administrador->id_user?>"><input type='button' name='up' value='Modificar'></td>
+				<td class='button'><a href="bajauser.php?Id=<?php echo $administrador->id_user?>"><input type='button' class='boton' name='del' value='Borrar'></a></td>
+				<td class='button'><a  href="modificacionUsuario.php?Id=<?php echo $administrador->id_user?>"><input type='button' class='boton' name='up' value='Modificar'></td>
 			</tr>       
     <?php
 		endforeach;
