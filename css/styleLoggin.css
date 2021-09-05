@@ -10,6 +10,16 @@ body { background-image: radial-gradient( cover, rgba(92,100,111,1) 0%,rgba(31,3
   margin: 20px auto 0;
   width: 298px;
 }
+
+.loginLarge {
+  background: #eceeee; 
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 440px;
+  margin: 20px auto 0;
+  width: 298px;	
+}
+
 .login h1 {
   background-image: linear-gradient(top, #f1f3f3, #d4dae0);
   border-bottom: 1px solid #a6abaf;
@@ -25,7 +35,7 @@ body { background-image: radial-gradient( cover, rgba(92,100,111,1) 0%,rgba(31,3
   text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff;
 }
 
-input[type="text"] {
+input[type="text"], [type="email"], [type="password"] {
   background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
   border: 1px solid #a1a3a3;
   border-radius: 4px;
@@ -40,16 +50,6 @@ input[type="text"] {
 }
 
 input[type="password"] {
-  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
-  border: 1px solid #a1a3a3;
-  border-radius: 4px;
-  box-shadow: 0 1px #fff;
-  box-sizing: border-box;
-  color: #696969;
-  height: 39px;
-  margin: 0 0 29px;
-  padding-left: 37px;
-  transition: box-shadow 0.3s;
   width: 195px;
 }
 

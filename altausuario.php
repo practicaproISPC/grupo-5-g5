@@ -78,7 +78,7 @@
         <h1>Alta de un nuevo administrador</h1>
             
         <main>
-        <div class="login">
+        <div class="loginLarge">
         <form ACTION="alta.php"  method="post" >
 			
             
@@ -86,10 +86,17 @@
             <input type="text" name="user" id="user" required><br>
 			
 			<label for="email">Email:</label><br>
-            <input type="email" name="email" id="email" required><br><br>
+            <input type="email" name="email" id="email" required><br>
             
-            <label for="pass">Contraseña:</label><br>
-            <input type="password" name="pas" id="pas" required><br><br>
+           <div style="display:inline">
+				<span class="inline">
+					<label for="pas">Contraseña:</label><br>
+					<input type="password" name="pas" id="pas" required>
+				</span>
+				<span class="inline">
+					<button class="btn btn-primary" id="verCon" type="button" onclick="mostrarContrasena('pas')"><i class="fa fa-eye-slash" aria-hidden="true"></i></button>
+				</span>
+			</div>
 
 			<button type="submit" value="alta"><b>Registrar</b></button>
 			
@@ -117,8 +124,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Funciones del form datos de contacto-->
 		<script src="js/datosContacto.js"></script>
-	
-		
+		<!-- Funciones para forms admin-->
+		<script src="js/adminLoggin.js"></script>
 	
 
 
