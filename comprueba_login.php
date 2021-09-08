@@ -4,6 +4,8 @@
 
 try {
 
+    $contador= 0;
+
     $base= new PDO("mysql:host=localhost; dbname=testfinanzasdb", "root","");
     $base->setAttribute (PDO::ATTR_ERRMODE, PDO:: ERRMODE_EXCEPTION);
 
@@ -20,7 +22,14 @@ try {
 
     $resultado ->execute();
 
-    $registro = $resultado ->rowCount();
+   $registro = $resultado ->rowCount();
+
+        if(password_verify($contra, $registro['PASSWORD'])){
+            $contador++;
+        }
+
+       
+
     if ($registro >0){
         session_start();
         $_SESSION["ingreso"]=$_POST["usuario"];

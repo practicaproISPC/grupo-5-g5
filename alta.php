@@ -6,6 +6,7 @@ $usuario = $_POST["user"];
 $email = $_POST["email"];
 $contrasenia = $_POST["pas"];
 
+$pass_cifrado= password_hash($contrasenia, PASSWORD_DEFAULT, array("cost"=>12));
 
 try {
 
@@ -18,7 +19,7 @@ try {
 
     $resultado = $base-> prepare($sql);
 
-    $resultado ->execute( array (":user"=>$usuario, ":email"=>$email, ":pas"=>$contrasenia));
+    $resultado ->execute( array (":user"=>$usuario, ":email"=>$email, ":pas"=>$pass_cifrado));
 
 
 	echo "Se dió de alta al admin con éxito; redireccionando...";
