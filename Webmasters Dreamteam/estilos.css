@@ -216,7 +216,7 @@ body {
     font-family: Hind Siliguri, Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.42857;
-    color: #838383;
+    color: #545454;
     background-color: #fff
 }
 button, input, select, textarea {
@@ -2992,7 +2992,7 @@ tbody.collapse.in {
     background-color: transparent
 }
 .navbar-default .navbar-text {
-    color: #838383
+    color: #545454
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff
@@ -3910,7 +3910,7 @@ button.close {
     color: #000
 }
 .h4, h4 {
-    color: #838383;
+    color: #545454;
     font-weight: 300;
     font-family: Hind Siliguri, Helvetica, Arial, sans-serif
 }
@@ -3954,7 +3954,7 @@ img.zoom-img {
     cursor: default
 }
 .social-round-icon {
-    border: 1px solid #838383;
+    border: 1px solid #545454;
     border-radius: 50px;
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
@@ -3975,7 +3975,7 @@ img.zoom-img {
     border-color: #fff
 }
 .fa-icon {
-    color: #838383;
+    color: #545454;
     width: 32px;
     height: 32px;
     display: inline-block;
@@ -4055,7 +4055,7 @@ label {
     }
 }
 .carousel-caption {
-    color: #838383;
+    color: #545454;
     text-shadow: none;
     position: relative;
     background-color: #fff;
