@@ -61,9 +61,9 @@ Se trabaja con el modelo ágil Scrum, aprovechando todas las ventajas que nos pr
 
 
 # Que encontrará en el repo
-El sitio [Test de Finanzas Personales](index.php), con su presentación, link al formulario de carga de datos de usuario, al TFP que a su vez conduce a 5 resultados diferentes según las respuestas del usuario, links en el footer a política de cookies, política de privacidad, política de datos personales, y sitio de los webmasters.
+El sitio [Test de Finanzas Personales](https://testfp.paranegociode.com.ar/), con su presentación, link al formulario de carga de datos de usuario, al TFP que a su vez conduce a 5 resultados diferentes según las respuestas del usuario, links en el footer a política de cookies, política de privacidad, política de datos personales, y sitio de los webmasters.
 
-El ingreso al sitio [para logueo de administrador](adminloggin.php), desde el que podrá crear, eliminar y modificar otros usuarios administradores, y consultar la lista de usuarios registados en el sitio.
+El ingreso al sitio [para logueo de administrador](https://testfp.paranegociode.com.ar/adminloggin.php), desde el que podrá crear, eliminar y modificar otros usuarios administradores, y consultar la lista de usuarios registados en el sitio.
 
 Una carpeta con la [Documentacion](Documentacion) del proyecto; una carpeta con las redacciones borradores que se utilizaron para las páginas; las carpetas css, fonts, js, images, SQL con los archivos del sitio.
 
