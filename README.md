@@ -44,7 +44,7 @@ Para saber más sobre nosotros, [consultar nuestro sitio.](Webmasters%20Dreamtea
 El Test de Finanzas Personales es un sitio web (que puede venderse e integrarse a sitios sobre finanzas ya existentes). En el TFP, los usuarios podrán realizar un test para conocer el estado de su situación económica. A partir de sus respuestas, recibirán información personalizada/recomendaciones para mejorar sus circunstancias. 
 Previo a realizar el Test de Finanzas Personales, el usuario se encontrará con un Formulario de Contacto, en el que se le pedirán sus datos personales, y aceptar nuestras Políticas de privacidad, Política de cookies, y envío de bonificaciones relacionados a nuestro sitio web. Las/os/es administradoras/os/es del sitio podrán loguearse y consultar dichos registros para ofrecer un acompañamiento personalizado.
 
-Para más info comercial sobre el proyecto [consultar el sitio.](Webmasters%20Dreamteam/index.html)
+Para más info comercial sobre el proyecto [consultar el sitio.](https://testfp.paranegociode.com.ar/)
 Para más info técnica sobre el proyecto, [consultar la documentación](Documentacion/TFP-Especificacion-ieee-830.docx)
 También puede ver los diagramas de la lógica del test y diagramas de las bases de datos en la [carpeta documentación](Documentacion)
 
