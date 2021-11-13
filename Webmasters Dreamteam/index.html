@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -12,11 +13,8 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="">
   <link href="./images/LogoDreamteam.png" rel="icon">
   <link href="" rel="stylesheet">
-
-
 
   <title>Webmasters Dreamteam</title>
   <link rel="icon" type="image/png" href="./images/LogoDreamteam.png">
@@ -38,7 +36,6 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html" title="">
-            <img src="" class="navbar-logo-img" alt="">
             Webmasters Dreamteam
           </a>
         </div>
@@ -50,7 +47,7 @@
             <li>
               <p>
                 <a href="#contacto" class="btn btn-default navbar-btn" title="">Contacto</a>
-                <!--EN ESTA PARTE HAY QUE ENLAZAR EL FORM CONTACT DE ABAJO PARA QUE QUEDE COMO UNA LANDING PAGE-->
+                
               </p>
             </li>
 
@@ -59,8 +56,6 @@
       </div>
     </nav>
   </header>
-
-  
 
   <!-- Add your site or app content here -->
   <div class="hero-full-container background-image-container white-text-container">
@@ -172,12 +167,10 @@
 
 
 
-                  <!--
-                  <a href=" " class="btn btn-primary" title="">
-                    Aca se me ocurrio que podemos armar tipo un portfolio de la pag del Test / (lo comento para que no quede visible vacío en la presentación)
+                  <a href="project.html" class="btn btn-primary" title="">
                     Hecha un vistazo
                   </a>
-				 -->
+
                 </div>
               </div>
             </div>
@@ -205,11 +198,11 @@
           <h4>Marketing Digital</h4>
           <h4>Developer</h4>
           <p>
-            <a href="https://www.youtube.com/channel/UC9mW6BOXoLPrqxXAcwqPkUg" target="_blank" aria-label="Youtube de Guadalupe Monge Barale"
+            <a href="https://www.youtube.com/channel/UC9mW6BOXoLPrqxXAcwqPkUg" target="_blank"
               class="social-round-icon fa-icon" title="">
               <i class="fa fa-youtube" aria-hidden="true"></i>
             </a>
-            <a href="https://github.com/GuadaMongeBarale" target="_blank" class="social-round-icon fa-icon" title="" aria-label="Github de Guadalupe Monge Barale">
+            <a href="https://github.com/GuadaMongeBarale" target="_blank" class="social-round-icon fa-icon" title="">
               <i class="fa fa-github" aria-hidden="true"></i>
             </a>
           </p>
@@ -222,10 +215,10 @@
           <h4>Developer</h4>
           <p>
             <a href="https://www.linkedin.com/in/franco-leiva-7b377134/" target="_blank"
-              class="social-round-icon fa-icon" title="" aria-label="Linkedin de Franco Leiva">
+              class="social-round-icon fa-icon" title="">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="https://github.com/leiva7" target="_blank" class="social-round-icon fa-icon" title="" aria-label="Github de Franco Leiva">
+            <a href="https://github.com/leiva7" target="_blank" class="social-round-icon fa-icon" title="">
               <i class="fa fa-github" aria-hidden="true"></i>
             </a>
           </p>
@@ -237,10 +230,10 @@
           <h4>Developer</h4>
           <p>
             <a href="https://www.linkedin.com/in/mar%C3%ADa-emilia-ludue%C3%B1a/" target="_blank"
-              class="social-round-icon fa-icon" title="" aria-label="Linkedin de María Emilia Ludueña">
+              class="social-round-icon fa-icon" title="">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="https://github.com/MaEmiliaLuduena" alt="link al repositorio github de María Emilia Ludueña" target="_blank" class="social-round-icon fa-icon" title="" aria-label="Github de María Emilia Ludueña">
+            <a href="https://github.com/MaEmiliaLuduena" target="_blank" class="social-round-icon fa-icon" title="">
               <i class="fa fa-github" aria-hidden="true"></i>
             </a>
           </p>
@@ -248,8 +241,6 @@
       </div>
     </div>
   </div>
-
-
 
   <div class="section-container contact-container" id="contacto">
     <div class="container">
@@ -261,51 +252,20 @@
           </div>
           <div class="card-container">
             <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
-			
-			<!-- PHP que queda en deshuso por ahora al levantar el sitio en heroku solo con front
-              <?php
-
-header("Content-Type: text/html;charset=utf-8"); //Para corregir ñ y acentos
-
-include ("conexion.php");
-$persona= new Database();
-if(isset($_POST) && !empty($_POST)){
-  $nombre = $persona->sanitize($_POST['Nombre']);
-  $email = $persona->sanitize($_POST['Email']);
-  $telefono = $persona->sanitize($_POST['Telefono']);
-  $mensaje = $persona->sanitize($_POST['Mensaje']);
-
-  $res = $persona->createCliente($nombre, $email, $telefono, $mensaje);
-    echo $res;
-    if($res){
-      echo "Consulta guardada con exito";
-      mysqli_close($con);
-      header('Location: index.php');
-    }else{
-      echo "No se pudo guardar tu consulta";
-    }
-  
-}
-    
-?>-->
-              <form action="" class="reveal-content" method="post">
+              <form action="" class="reveal-content">
                 <div class="row">
                   <div class="col-md-7">
                     <div class="form-group">
-					  <label for="subject" aria-label="Nombre"></label>
-                      <input type="text" class="form-control" id="subject" name="Nombre" placeholder="Nombre" required>  
+                      <input type="text" class="form-control" id="subject" placeholder="Nombre" required>
                     </div>
                     <div class="form-group">
-				      <label for="email" aria-label="Email"></label>
-                      <input type="email" class="form-control" id="email" name="Email" placeholder="Email" required>
+                      <input type="email" class="form-control" id="email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-					  <label for="tel" aria-label="Telefono"></label>
-                      <input type="tel" class="form-control" id="tel" name="Telefono"placeholder="Teléfono" required>
+                      <input type="tel" class="form-control" id="tel" placeholder="Télefono">
                     </div>
                     <div class="form-group">
-					  <label for="msje" aria-label="Mensaje"></label>
-                      <textarea class="form-control" rows="3" id="msje" name="Mensaje" placeholder="Mensaje" required></textarea>
+                      <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar mensaje</button>
                   </div>
@@ -360,10 +320,10 @@ if(isset($_POST) && !empty($_POST)){
             <div class="col-xs-12 col-sm-5">
               <p class="text-right">
                 <a href="https://github.com/practicaproISPC/grupo-5-g5" target="_blank"
-                  class="social-round-icon white-round-icon fa-icon" title="" aria-label="Github de un proyecto de DreamTeam">
+                  class="social-round-icon white-round-icon fa-icon" title="">
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
-                <a href="contacto@dreamteam.com" class="social-round-icon white-round-icon fa-icon" title="" title="" aria-label="Mail de DreamTeam">
+                <a href="contacto@dreamteam.com" class="social-round-icon white-round-icon fa-icon" title="">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                 </a>
               </p>
@@ -400,5 +360,4 @@ if(isset($_POST) && !empty($_POST)){
 -->
   <script type="text/javascript" src="main.0cf8b554.js"></script>
 </body>
-
 </html>
