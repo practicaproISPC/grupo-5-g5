@@ -1835,7 +1835,7 @@ input[type=search] {
     touch-action: manipulation;
     cursor: pointer;
     background-image: none;
-    border: px solid transparent;
+    border: 1px solid transparent;
     white-space: nowrap;
     padding: 12px 18px;
     font-size: 18px;
@@ -1846,13 +1846,11 @@ input[type=search] {
     -ms-user-select: none;
     user-select: none
 }
-
 .btn-primary {
     color: #fff;
     background-color: #1763e9;
     border-radius: 0.5em;
 }
-
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
@@ -3839,18 +3837,15 @@ button.close {
     -o-transition: all .1s linear;
     transition: all .1s linear
 }
-
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #1763e9;
+    color: #fff;
+    border-color: #1763e9
+}
 .btn-primary {
     color: #fff;
     background-color: #1763e9;
     border-radius: 0.5em;
-}
-
-.btn-primary:focus, .btn-primary:hover {
-    background-color: #185cd3;
-    color: #fff;
-    border-color: #1763e9;
-
 }
 .btn-info:focus, .btn-info:hover {
     background-color: #08005f;
@@ -4148,4 +4143,3 @@ label {
 .centrarBoton{
 	text-align: center;
 }
-
