@@ -5,7 +5,7 @@ Realizando las prácticas profesionalizantes de 1er año de la tecnicatura de de
 # Quiénes somos
 
 Participamos del proyecto:
- - Maria Guadalupe Monje [GitHub](https://github.com/GuadaMongeBarale) [Youtube](https://www.youtube.com/channel/UC9mW6BOXoLPrqxXAcwqPkUg)
+ - Maria Guadalupe Monge Barale [GitHub](https://github.com/GuadaMongeBarale) [Youtube](https://www.youtube.com/channel/UC9mW6BOXoLPrqxXAcwqPkUg)
  - Maria Emilia Ludueña [GitHub](https://github.com/MaEmiliaLuduena) [Linkedin](https://www.linkedin.com/in/mar%C3%ADa-emilia-ludue%C3%B1a/)
  - Franco Leiva [GitHub](https://github.com/leiva7) [Linkedin](https://www.linkedin.com/in/franco-leiva-7b377134/)
  
