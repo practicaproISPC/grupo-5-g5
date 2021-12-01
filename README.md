@@ -36,6 +36,7 @@ En 1er año:
     - Aprendizaje autónomo
 
 En 2do año:
+
     - Profundizamos conocimientos en HTML, CSS 
     - Profundizamos conocimiento en Javascript
     - APIs
@@ -50,7 +51,7 @@ En 2do año:
   
 En el transcurso del proyecto, encontramos afinidad en nuestro compromiso por realizar una labor de excelencia, motivo por el que nos constituímos como equipo de desarrollo. 
 Consideramos nuestra fusión de conocimientos como una gran ventaja al momento de llevar a cabo nuestro proyectos. El conocimiento, y la forma de trabajar de cada integrante del equipo nos lleva a complementarnos de manera eficiente y eficaz a la hora de poner en marcha nuestros trabajos.
-Para saber más sobre nosotros, [consultar nuestro sitio.](Webmasters%20Dreamteam/project.html)
+Para saber más sobre nosotros, [consultar nuestro sitio.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
 
 
 # En qué consiste el proyecto
