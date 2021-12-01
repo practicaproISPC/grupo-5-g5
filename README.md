@@ -99,4 +99,4 @@ Una carpeta con la [Documentacion](Test%20Finanzas%20Personales/Documentacion) d
 
 ### Webmasters Dreamteam - Sobre Nosotros
 
-La carpeta Webmasters Dreamteam, que contiene el [sitio](Webmasters%20Dreamteam/index.html) en el que brindamos detalles sobre nuestro equipo y nuestros proyectos. Puede ver una [demo del sitio aquí.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
+La carpeta [Webmasters Dreamteam](Webmasters%20Dreamteam/) que contiene el [sitio](Webmasters%20Dreamteam/index.html) en el que brindamos detalles sobre nuestro equipo y nuestros proyectos. Puede ver una [demo del sitio aquí.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
