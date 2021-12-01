@@ -9,7 +9,7 @@ Durante 2do año, desarrollamos el sitio de una empresa de desarrolladores.
 
 Participamos del proyecto:
  - Maria Guadalupe Monge Barale [GitHub](https://github.com/GuadaMongeBarale) [Youtube](https://www.youtube.com/channel/UC9mW6BOXoLPrqxXAcwqPkUg)
- - Maria Emilia Ludueña [GitHub](https://github.com/MaEmiliaLuduena) [Linkedin](https://www.linkedin.com/in/mar%C3%ADa-emilia-ludue%C3%B1a/)
+ - María Emilia Ludueña [GitHub](https://github.com/MaEmiliaLuduena) [Linkedin](https://www.linkedin.com/in/mar%C3%ADa-emilia-ludue%C3%B1a/)
  - Franco Leiva [GitHub](https://github.com/leiva7) [Linkedin](https://www.linkedin.com/in/franco-leiva-7b377134/)
  
  
