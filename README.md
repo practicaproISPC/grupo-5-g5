@@ -37,10 +37,10 @@ En 1er año:
 
 En 2do año:
     - Profundizamos conocimientos en HTML, CSS 
-	- Profundizamos conocimiento en Javascript
-	- APIs
-	- Node.js
-	- Heroku
+    - Profundizamos conocimiento en Javascript
+    - APIs
+    - Node.js
+    - Heroku
 
 ## Nace un equipo
 
@@ -56,17 +56,17 @@ Para saber más sobre nosotros, [consultar nuestro sitio.](Webmasters%20Dreamtea
 # En qué consiste el proyecto
 
 ### En 1er año 
-	Elaboramos el sitio Test de Finanzas Personales, un sitio web (que puede venderse e integrarse a sitios sobre finanzas ya existentes). En el TFP, los usuarios podrán realizar un test para conocer el estado de su situación económica. A partir de sus respuestas, recibirán información personalizada/recomendaciones para mejorar sus circunstancias. 
-	Previo a realizar el Test de Finanzas Personales, el usuario se encontrará con un Formulario de Contacto, en el que se le pedirán sus datos personales, y aceptar nuestras Políticas de privacidad, Política de cookies, y envío de bonificaciones relacionados a nuestro sitio web. Las/os/es administradoras/os/es del sitio podrán loguearse y consultar dichos registros para ofrecer un acompañamiento personalizado.
-	Para más info comercial sobre el proyecto [consultar el sitio.](https://testfp.paranegociode.com.ar/)
-	Para más info técnica sobre el proyecto, [consultar la documentación](Test%20Finanzas%20Personales/Documentacion/TFP-Especificacion-ieee-830.docx)
-	También puede ver los diagramas de la lógica del test y diagramas de las bases de datos en la [carpeta documentación](Test%20Finanzas%20Personales/Documentacion)
+Elaboramos el sitio Test de Finanzas Personales, un sitio web (que puede venderse e integrarse a sitios sobre finanzas ya existentes). En el TFP, los usuarios podrán realizar un test para conocer el estado de su situación económica. A partir de sus respuestas, recibirán información personalizada/recomendaciones para mejorar sus circunstancias. 
+Previo a realizar el Test de Finanzas Personales, el usuario se encontrará con un Formulario de Contacto, en el que se le pedirán sus datos personales, y aceptar nuestras Políticas de privacidad, Política de cookies, y envío de bonificaciones relacionados a nuestro sitio web. Las/os/es administradoras/os/es del sitio podrán loguearse y consultar dichos registros para ofrecer un acompañamiento personalizado.
+Para más info comercial sobre el proyecto [consultar el sitio.](https://testfp.paranegociode.com.ar/)
+Para más info técnica sobre el proyecto, [consultar la documentación](Test%20Finanzas%20Personales/Documentacion/TFP-Especificacion-ieee-830.docx)
+También puede ver los diagramas de la lógica del test y diagramas de las bases de datos en la [carpeta documentación](Test%20Finanzas%20Personales/Documentacion)
 
 ### En 2do año
-	Nos centramos en la elaboración de un sitio de presentación de una empresa (a los fines de aprovechar el ejercicio, generamos el sitio web de nuestro equipo de desarrollo). 
-	Para ello, presentamos la organización, a sus miembros, los proyectos elaborados, las vías de contacto y los servicios ofrecidos. Tuvimos en cuenta también cuestiones básicas de accesibilidad web. Proveemos al sitio de consumo de datos de una API desarrollada por el equipo. 
-	Puede ver una [demo del sitio aquí.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
-	
+Nos centramos en la elaboración de un sitio de presentación de una empresa (a los fines de aprovechar el ejercicio, generamos el sitio web de nuestro equipo de desarrollo). 
+Para ello, presentamos la organización, a sus miembros, los proyectos elaborados, las vías de contacto y los servicios ofrecidos. Tuvimos en cuenta también cuestiones básicas de accesibilidad web. Proveemos al sitio de consumo de datos de una API desarrollada por el equipo. 
+Puede ver una [demo del sitio aquí.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
+    
 
 # La metodología
 
@@ -76,26 +76,26 @@ Se trabaja con el modelo ágil Scrum, aprovechando todas las ventajas que nos pr
 
 ### 1er año
 - [1er Sprint](https://github.com/practicaproISPC/grupo-5-g5/milestone/2) También puede ver la lista de [issues del 1er Sprint](https://github.com/practicaproISPC/grupo-5-g5/issues?q=is%3Aissue+milestone%3A%221+er+Sprint%22+)  
-- [2er Sprint](https://github.com/practicaproISPC/grupo-5-g5/milestone/3) También puede ver la lista de [issues del 2er Sprint](https://github.com/practicaproISPC/grupo-5-g5/issues?q=is%3Aissue+milestone%3A%222+do+Sprint%22+)
+- [2do Sprint](https://github.com/practicaproISPC/grupo-5-g5/milestone/3) También puede ver la lista de [issues del 2do Sprint](https://github.com/practicaproISPC/grupo-5-g5/issues?q=is%3Aissue+milestone%3A%222+do+Sprint%22+)
 - [3er Sprint](https://github.com/practicaproISPC/grupo-5-g5/milestone/4) También puede ver la lista de [issues del 3er Sprint](https://github.com/practicaproISPC/grupo-5-g5/issues?q=is%3Aissue+milestone%3A%223er+Sprint%22+)
 
 ### 2do año
--[1er Sprint](https://github.com/practicaproISPC/grupo-5-g5/milestone/5) También puede ver la lista de [issues del 1er Sprint](https://github.com/practicaproISPC/grupo-5-g5/issues?q=is%3Aissue+milestone%3A%221+Sprint%22+)  
-- [2er Sprint](https://github.com/practicaproISPC/grupo-5-g5/milestone/6) También puede ver la lista de [issues del 2er Sp1rint](https://github.com/practicaproISPC/grupo-5-g5/issues?q=is%3Aissue+milestone%3A%222+Sprint%22+)
+- [1er Sprint](https://github.com/practicaproISPC/grupo-5-g5/milestone/5) También puede ver la lista de [issues del 1er Sprint](https://github.com/practicaproISPC/grupo-5-g5/issues?q=is%3Aissue+milestone%3A%221+Sprint%22+)  
+- [2do Sprint](https://github.com/practicaproISPC/grupo-5-g5/milestone/6) También puede ver la lista de [issues del 2do Sp1rint](https://github.com/practicaproISPC/grupo-5-g5/issues?q=is%3Aissue+milestone%3A%222+Sprint%22+)
 
     
 
 
 # Que encontrará en el repo
 
-	### Test de Finanzas Personales
-	El sitio [Test de Finanzas Personales](Test%20Finanzas%20Personales/) , con su presentación, link al formulario de carga de datos de usuario, al TFP que a su vez conduce a 5 resultados diferentes según las respuestas del usuario, links en el footer a política de cookies, política de privacidad, política de datos personales, y sitio de los webmasters. También puede ver un [ejemplo funcional del sitio aquí](https://testfp.paranegociode.com.ar/)
+### Test de Finanzas Personales
+El sitio [Test de Finanzas Personales](Test%20Finanzas%20Personales/) , con su presentación, link al formulario de carga de datos de usuario, al TFP que a su vez conduce a 5 resultados diferentes según las respuestas del usuario, links en el footer a política de cookies, política de privacidad, política de datos personales, y sitio de los webmasters. También puede ver un [ejemplo funcional del sitio aquí](https://testfp.paranegociode.com.ar/)
 
-	El ingreso al sitio [para logueo de administrador](Test%20Finanzas%20Personales/adminloggin.php), desde el que podrá crear, eliminar y modificar otros usuarios administradores, y consultar la lista de usuarios registados en el sitio. [Puede ver un ejemplo funcional del logueo aquí](https://testfp.paranegociode.com.ar/adminloggin.php)
+El ingreso al sitio [para logueo de administrador](Test%20Finanzas%20Personales/adminloggin.php), desde el que podrá crear, eliminar y modificar otros usuarios administradores, y consultar la lista de usuarios registados en el sitio. [Puede ver un ejemplo funcional del logueo aquí](https://testfp.paranegociode.com.ar/adminloggin.php)
 
-	Una carpeta con la [Documentacion](Test%20Finanzas%20Personales/Documentacion) del proyecto; una carpeta con las redacciones borradores que se utilizaron para las páginas; las carpetas css, fonts, js, images, SQL con los archivos del sitio.
+Una carpeta con la [Documentacion](Test%20Finanzas%20Personales/Documentacion) del proyecto; una carpeta con las redacciones borradores que se utilizaron para las páginas; las carpetas css, fonts, js, images, SQL con los archivos del sitio.
 
-	
-	### Webmasters Dreamteam - Sobre Nosotros
 
-	La carpeta Webmasters Dreamteam, que contiene el [sitio](Webmasters%20Dreamteam/index.html) en el que brindamos detalles sobre nuestro equipo y nuestros proyectos. Puede ver una [demo del sitio aquí.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
+### Webmasters Dreamteam - Sobre Nosotros
+
+La carpeta Webmasters Dreamteam, que contiene el [sitio](Webmasters%20Dreamteam/index.html) en el que brindamos detalles sobre nuestro equipo y nuestros proyectos. Puede ver una [demo del sitio aquí.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
