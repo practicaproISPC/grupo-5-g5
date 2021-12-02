@@ -4185,5 +4185,23 @@ label {
   }
 
 
-  /* TARJETAS PRECIOS */
+  /* Whatsapp */
+
+  .whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:7px;
+    right:10px;
+    background-color:#25D366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:90;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
  
