@@ -37,29 +37,23 @@ function limpiarDiv(div){
 }
 
 // En vez de llamar a la función de crear tarjetas desde el boton, generamos una función que haga el fetch, limpie el div de index y que itere por cada item del JSON, llamando a crearOferta con el contenido de c/uno y populando nuevamente el div de index
-function traerServicios(){
-	request.open('GET', 'https://apiclientesfran.herokuapp.com/servicios', true)
-	request.onload = function () {
-	  // Begin accessing JSON data here
-	  var data = JSON.parse(this.response)
-	  
-	  limpiarDiv(dondeCrea)
-	  
-	  if (request.status >= 200 && request.status < 400) {
-		data.forEach(servicio => {
-			let producto = servicio.producto;
-			let descripcion = servicio.descripcion;
-			let precio = servicio.precio;
-			crearOferta(producto, descripcion, precio);
-		  //console.log('Producto: ' + servicio.producto + '. Descripción: ' + servicio.descripcion + '. Precio $' + servicio.precio  )
-		})
-	  } else {
-		console.log('error')
-	  }
-	}
-	request.send()
+// VERSION HECHA CON FETCH
+function traerServicios () {
+	fetch('https://apiclientesfran.herokuapp.com/servicios')
+	    .then(response => response.json())
+	    .then(function(data){
+			limpiarDiv(dondeCrea)
+			data.forEach(servicio => {
+				let producto = servicio.producto;
+				let descripcion = servicio.descripcion;
+				let precio = servicio.precio;
+				crearOferta(producto, descripcion, precio);
+			});
+		});
 		
-}
+
+};
+
 
 
 
