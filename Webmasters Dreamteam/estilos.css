@@ -4053,12 +4053,12 @@ label {
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
     max-width: 100%
-} */
+}
 @media (min-width:992px) {
     .carousel-inner>.item>a>img, .carousel-inner>.item>img {
         max-width: 80%
     }
-}
+}  */
 .carousel-caption {
     color: #545454;
     text-shadow: none;
