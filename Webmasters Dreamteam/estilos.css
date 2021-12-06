@@ -3791,7 +3791,7 @@ button.close {
     overflow: hidden
 }
 .list-unstyled li {
-    line-height: 1.58em
+    line-height: 1.58em;
 }
 .section-container {
     padding: 60px 0
@@ -4203,5 +4203,6 @@ label {
   
   .whatsapp-icon {
     margin-top:13px;
+    color: #fff;
   }
  
