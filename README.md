@@ -3,12 +3,14 @@
 El presente repositorio cuenta con lo desarrollado en las prácticas profesionalizantes de 1er y 2do año de la tecnicatura de desarrollo web y aplicaciones digitales del Instituto Superior Politécnico Córdoba. 
 
 Durante 1er año, elaboramos un sitio web sobre Test de Finanzas Personales.
-Durante 2do año, desarrollamos el sitio de una empresa de desarrolladores.
+Durante 3er cuatrimestre, desarrollamos el sitio de una empresa de desarrolladores.
+Durante 4to cuatrimestre, desarrollamos sitio web para ampliar el vocabulario de la lengua inglesa.
+
 
 # Quiénes somos
 
 Participamos del proyecto:
- - Maria Guadalupe Monge Barale [GitHub](https://github.com/GuadaMongeBarale) [Youtube](https://www.youtube.com/channel/UC9mW6BOXoLPrqxXAcwqPkUg)
+ - Maria Guadalupe Monge Barale [GitHub](https://github.com/GuadaMongeBarale) [Linkedin](https://www.linkedin.com/in/guadalupe-monge-barale/)
  - María Emilia Ludueña [GitHub](https://github.com/MaEmiliaLuduena) [Linkedin](https://www.linkedin.com/in/mar%C3%ADa-emilia-ludue%C3%B1a/)
  - Franco Leiva [GitHub](https://github.com/leiva7) [Linkedin](https://www.linkedin.com/in/franco-leiva-7b377134/)
  

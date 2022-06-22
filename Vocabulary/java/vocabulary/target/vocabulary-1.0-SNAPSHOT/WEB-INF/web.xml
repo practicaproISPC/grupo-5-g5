@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd">
+    <servlet>
+        <servlet-name>categories</servlet-name>
+        <servlet-class>dreamteam.vocabulary.categories</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>frutis</servlet-name>
+        <servlet-class>dreamteam.vocabulary.frutis</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>vegetables</servlet-name>
+        <servlet-class>dreamteam.vocabulary.vegetables</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>categories</servlet-name>
+        <url-pattern>/categories</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>frutis</servlet-name>
+        <url-pattern>/frutis</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>vegetables</servlet-name>
+        <url-pattern>/vegetables</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
