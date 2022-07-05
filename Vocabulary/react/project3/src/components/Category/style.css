@@ -1,0 +1,22 @@
+.category{
+    width: 240px;
+}
+.category img {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+
+    object-fit: cover; /*imagen se adecua al tamaño*/
+}
+
+.category figcaption {
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.category figcaption:first-letter {
+    text-transform: uppercase;
+}
