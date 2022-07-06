@@ -29,27 +29,24 @@ public class frutis extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
+        
+        response.setContentType("application/json;charset=UTF-8");
+        response.addHeader("Access-Control-Allow-Origin", "*");
+        response.addHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE, HEAD");
+        response.addHeader("Access-Control-Allow-Headers", "X-PINGOTHER, Origin, X-Requested-With, Content-Type, Accept");
+        response.addHeader("Access-Control-Max-Age", "1728000");
+
         try ( PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet frutis</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            System.out.println("<h1>Servlet frutis at " + request.getContextPath() + "</h1>");
-            out.println("<main>");
-            out.println("<p> {\"frutis\":[<br/>");
+
+            out.println("{\"frutis\":[");
             try {
-                out.println(this.getFrutis());
+
+                out.println(this.getFrutis().substring(0, getFrutis().length() - 1));
+
             } catch (SQLException ex) {
                 System.out.print(ex.toString());
             }
-            out.println("]}</p>");
-            out.println("</main>");
-            out.println("</body>");
-            out.println("</html>");
+            out.println("]}");
         }
     }
     
@@ -71,7 +68,7 @@ public class frutis extends HttpServlet {
 
         while (rs.next()) {
 
-            returnString += "{\"word\":\"" + rs.getString("word") + "\",\"url\":\"" + rs.getString("url") + "\"},<br/>";
+            returnString += "{\"word\":\"" + rs.getString("word") + "\" , \"url\":\"" + rs.getString("url") + "\"},";
 
         }
         return returnString;        
