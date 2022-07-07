@@ -4,7 +4,7 @@ El presente repositorio cuenta con lo desarrollado en las prácticas profesional
 
 Durante 1er año, elaboramos un sitio web sobre Test de Finanzas Personales.
 Durante 3er cuatrimestre, desarrollamos el sitio de una empresa de desarrolladores.
-Durante 4to cuatrimestre, desarrollamos sitio web para ampliar el vocabulario de la lengua inglesa.
+Durante 4to cuatrimestre, desarrollamos un sitio web para ampliar el vocabulario de la lengua inglesa.
 
 
 # Quiénes somos
@@ -44,6 +44,9 @@ En 2do año:
     - APIs
     - Node.js
     - Heroku
+	- Java
+	- React Js
+	- SQL
 
 ## Nace un equipo
 
@@ -65,10 +68,14 @@ Para más info comercial sobre el proyecto [consultar el sitio.](https://testfp.
 Para más info técnica sobre el proyecto, [consultar la documentación](Test%20Finanzas%20Personales/Documentacion/TFP-Especificacion-ieee-830.docx)
 También puede ver los diagramas de la lógica del test y diagramas de las bases de datos en la [carpeta documentación](Test%20Finanzas%20Personales/Documentacion)
 
-### En 2do año
+### En 2do año, 3er cuatrimestre
 Nos centramos en la elaboración de un sitio de presentación de una empresa (a los fines de aprovechar el ejercicio, generamos el sitio web de nuestro equipo de desarrollo). 
 Para ello, presentamos la organización, a sus miembros, los proyectos elaborados, las vías de contacto y los servicios ofrecidos. Tuvimos en cuenta también cuestiones básicas de accesibilidad web. Proveemos al sitio de consumo de datos de una API desarrollada por el equipo. 
 Puede ver una [demo del sitio aquí.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
+
+### En 2do año, 4to cuatrimestre
+Desarrollamos las bases de lo que se convertirá en un sitio web en el que el usuario podrá practicar su vocabulario inglés. En dicho sitio se accederá a una serie de categorías que el usuario podrá seleccionar para comenzar (por ejemplo vegetables, fruits, bedroom, etc). Luego se le presentarán palabras propias de la categoría, junto a su correspondiente imágen y al sonido de su pronunciación. A continuación, tendrá la oportunidad de introducir la palabra aprendida y se le indicará si la escribió correctamente. 
+En la primera etapa de éste proyecto, se elaboró una base de datos con categorías, y con links a imágenes y palabras por categorías; se desarrolló un servlet que responde a solicitudes devolviendo datos desde la base con formato JSON. A su vez, se generó la primera parte del front con React, en el que pueden verse las categorías entre las que el usuario podrá elegir con sus respectivas imágenes. 
     
 
 # La metodología
@@ -102,3 +109,6 @@ Una carpeta con la [Documentacion](Test%20Finanzas%20Personales/Documentacion) d
 ### Webmasters Dreamteam - Sobre Nosotros
 
 La carpeta [Webmasters Dreamteam](Webmasters%20Dreamteam/) que contiene el [sitio](Webmasters%20Dreamteam/index.html) en el que brindamos detalles sobre nuestro equipo y nuestros proyectos. Puede ver una [demo del sitio aquí.](https://aplicacionpracticafran.herokuapp.com/static/basico/Webmasters%20Dreamteam/index.html)
+
+### Vocabulary
+En la carpeta [Vocabulary](https://github.com/practicaproISPC/grupo-5-g5/tree/main/Vocabulary) podrá acceder a los elementos que componen el front y back de los primeros avances del proyecto de sitio para practicar vocabulario en inglés.
