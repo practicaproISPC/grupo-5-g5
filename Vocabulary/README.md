@@ -1,9 +1,9 @@
 # Proyecto de Práctica 2022 - ISPC
 
 ### Integrantes: 
-    •	Leiva Franco
-    •	Ludueña María Emilia
-    •	Monge Barale María Guadalupe
+ - Leiva Franco
+ - Ludueña María Emilia
+ - Monge Barale María Guadalupe
 
 #### Link al repositorio del equipo: [Github Equipo 5](https://github.com/practicaproISPC/grupo-5-g5)
 
