@@ -13,13 +13,16 @@ Para esta nueva etapa hemos decidido cambiar el proyecto con el que veníamos tr
 #### Link a la carpeta de nuestro sitio en el repositorio: [Webmasters Dreamteam](https://github.com/practicaproISPC/grupo-5-g5/tree/main/Webmasters%20Dreamteam)
 
 Este se basó en que los clientes que contrataran nuestros servicios contaran con:
-    •	Posicionamiento en los navegadores de búsqueda.
-    •	Optimización en páginas web, con carga rápida de las mismas.
-    •	Conexión a Base de Datos.
-    •	Que su marca sea reconocida en la web.
-    •	Links que permiten enlazar la página con diferentes redes sociales.
-    •	Páginas web con diseño responsivo para que se pueda adaptar a la pantalla de cualquier dispositivo.
+ - Posicionamiento en los navegadores de búsqueda.
+ - Optimización en páginas web, con carga rápida de las mismas.
+ - Conexión a Base de Datos.
+ - Que su marca sea reconocida en la web.
+ - Links que permiten enlazar la página con diferentes redes sociales.
+ - Páginas web con diseño responsivo para que se pueda adaptar a la pantalla de cualquier dispositivo.
+ 
 En el sitio web creado (durante el tercer cuatrimestre), generamos una API con Node.js que obtiene datos del servidor comúnmente utilizada para actualizar pequeñas secciones de una página web. Esto permitirá que al utilizar una API para obtener datos desde el servidor no se deba volver a cargar toda la página o aplicación, logrando que éstas tengan una sensación de rapidez y agilidad.
+
+
 En uno de los proyectos cargados en nuestro sitio, se encuentra otro de nuestros proyectos: Test de finanzas personales, disponible en nuestra web para aquellas empresas que se encuentren trabajando al interior del mundo del sistema financiero.
 
 #### Link a la carpeta del Test de finanzas personales en el repositorio: [Test Finanzas Personales](https://github.com/practicaproISPC/grupo-5-g5/tree/main/Test%20Finanzas%20Personales)
