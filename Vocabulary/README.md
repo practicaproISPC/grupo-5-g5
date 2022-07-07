@@ -39,11 +39,11 @@ Dicha página contará con categorías a partir de las cuales el usuario podrá 
 Le aparecerá una imagen y abajo la palabra que significa esa imagen en el idioma seleccionado. Al costado de dicha palabra aparecerá un parlante donde el usuario podrá escuchar cómo se pronuncia en inglés. Luego de haber inspeccionado algunas imágenes con su respectiva pronunciación y escritura, se le habilitará la siguiente dinámica: aparecerá una imagen de las ya vistas anteriormente con un campo para rellenar, en donde el usuario deberá escribir la palabra en el idioma correspondiente. Allí se le informará si escribió bien o no.
 
 ## Tecnologías que utilizaremos:
-    •	Front y Back de la página web:
-        o	HTML
+ - Front y Back de la página web:
+  - - HTML
         o	CSS
         o	JavaScript
         o	React
-    •	SQL
-    •	Java 
+ - SQL
+ - Java 
 
