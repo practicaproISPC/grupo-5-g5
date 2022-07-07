@@ -1,0 +1,9 @@
+.categories_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);/*igual q decir 1fr 1fr) */
+    gap: 26px;
+    place-content: center; /* para alinear al centro /*/
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
