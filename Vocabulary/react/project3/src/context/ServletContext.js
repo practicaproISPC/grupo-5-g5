@@ -10,9 +10,9 @@ export const ServletContextProvider = ({children}) => {
 
     useEffect(() => {
         const config = {
-            /* url: 'http://127.0.0.1:5500/public/json/categories.json' */
-            url: 'http://localhost:8080/projectVocabulary/categories',
-            method: 'GET',
+            url: 'http://127.0.0.1:5500/public/json/categories.json'
+            /*url: 'http://localhost:8080/projectVocabulary/categories',
+            method: 'GET', */
         };
         Axios(config)
             .then((response) => {
