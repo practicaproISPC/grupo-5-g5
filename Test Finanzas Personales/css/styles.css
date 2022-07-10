@@ -1,0 +1,537 @@
+/*
+	Shine by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* GLOBAL STYLES */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 28px;
+    text-align: center;
+    overflow-x: hidden !important;
+    margin: auto !important;
+}
+
+a, a:hover, a:active, a:focus {
+    border: 0 none;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+/* TYPOGRAPHIE */
+
+h1, h2{
+	font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+	
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 62px;
+}
+
+/*Se cambió el formato del h2 para que sea como h3, para usar en la estructura los h2 donde corresponde, con un formato más pequeño*/
+
+h2 {
+    font-size: 22px;
+    line-height: 42px;
+	font-weight: 300;
+} 
+
+
+h3 {
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+figcaption { /*leyendas */
+	font-family:'Lucida Sans', 'Lucida Sans Regular'; 
+	font-style: oblique; bold;
+	color: #84c700;
+}
+
+p{
+	text-align:left; /*se cambió de justify a left por accesibilidad*/
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 1.5em;
+}
+
+li { /* para las listas Cuando uno dice los puntos a tener en cuenta son: */
+	text-align:justify;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 80px;
+	margin-right: 50px;
+}
+
+button {
+	padding: 10px 20px;
+    	background-color: #008ed6;
+    	color: white;
+    	font-weight: inherit;
+	font-size: 22px; /*Era medium, cambie a 22px para satisfacer contraste accesibilidad*/
+	box-shadow: 0px 1px 1px #828282;
+	border-radius: 25px;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	}
+
+
+
+/* FORM GROUPS */
+
+.form-control {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+	border-radius: 0px;
+    	box-shadow: none;
+    	height: 57px;
+    	padding-left: 20px;
+}
+
+/* CUSTOM CLASSES */
+
+.white-text { /*esta es la clase que usamos en los h sobre imagen */
+	color: ;
+	text-align: left;
+	font-family: sans-serif;
+	text-shadow: -2px -1px 0px #f8f5f5e7; /* sombra Valores x y y color */
+	/*float: left;*/
+	position: relative;
+	left: 0;
+	top: 7%;
+}
+
+
+.colored-line-small-center {
+	background: #008ed6;
+	display: block;
+	margin: auto;
+    	height: 1px;
+    	width: 25%;
+   	z-index: 1;
+	margin-bottom: 5px;
+}
+
+.colored-line-right {
+	background: #008ed6;
+	display: block;
+	float: right;
+    	height: 1px;
+    	width: 165px;
+    	z-index: 1;
+}
+
+.button-leweb {
+	background: none repeat scroll 0 0 rgba(22, 182, 234, 0.5);
+    	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 0px;
+    	box-shadow: none;
+	height: 57px;
+	padding-left: 18px;
+	padding-right: 18px;
+	
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease; 
+}
+
+.button-leweb:hover {
+	background: #008ed6;
+}
+
+.subtitulos { /* Usados en los resultados */
+	text-align: left;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: oblique;
+	color: #008ed6;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.resaltado { /*esta la usamos en los tipo cuadros de final de los resultados */
+	background-color:#008ed6 ;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-style:oblique;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.boton { /*usado en los resultados */
+	border: 1px solid #57601d; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #84c700; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.imagen { /*para que la imagen quede en caja al alinearla a la izq */
+	margin-left: 50px;
+	margin-right: 10px;
+}
+	
+.pCentrado{
+	text-align: center;
+}
+
+.botonEnviar{ /*del FormDatos*/
+	padding: 15px 0px;
+}
+
+
+.delimitador{ /* para hacer un contenedor para el video asi esta más chico y alineado */
+	width:50%;
+	margin:auto;
+}
+.video-responsive {
+	position: relative;
+	padding-bottom: 56.25%; /* 16/9 ratio */
+	padding-top: 30px; /* IE6 workaround*/
+	height: 0;
+	overflow: hidden;
+	}
+	
+	.video-responsive iframe,
+	.video-responsive object,
+	.video-responsive embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+
+/* SECTIONS */
+
+section {
+	padding: 100px 0px;
+}
+/* HEADER */
+
+#header {
+	background: url(../images/money2.jpg) no-repeat center center;
+	background-size: cover;
+	height: 50vh;
+	padding: 0px;
+}
+
+#header .container {
+	background: url(../images/body-bg1.png) repeat 0 0;
+	height: 50vh;
+	width: 100% !important;
+	padding: 0px;	
+	z-index: 998;
+}
+
+#header .col-md-8 {
+	top: 7%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	display: table;
+	margin-left: 30px;
+	margin-right: 50px;
+	z-index: 999;
+}
+
+#header .logo {
+	margin-bottom: 15px;
+}
+
+.animation {
+	width: 100%;
+	bottom: 0;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	top: 40%; /*desde donde arranca la flechita */
+	left: 0;
+	z-index: 999;
+	text-align: center;
+	text-decoration: none;
+}
+
+#header .fa-angle-down {
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+
+	
+	-webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
+	-moz-animation: leweb_fade_move_down 2s ease-in-out infinite;
+	animation: leweb_fade_move_down 2s ease-in-out infinite;
+   }
+
+	/* Animated Arrow Down Header */
+	
+@-webkit-keyframes leweb_fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes leweb_fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes leweb_fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
+}
+
+
+/* ABOUT */
+
+#about i {
+	color: #fff;
+	font-size: 75px;
+	background: #008ed6;
+	border-radius: 50%;
+	line-height: 175px;
+	height: 175px;
+	width: 175px;
+}
+
+/* SUBSCRIBE */
+
+#subscribe {
+	background: url(../images/bg-subscribe.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	padding: 0px;
+	min-height: 430px;
+}
+
+#subscribe .icontop {
+	position: absolute;
+	color: #fff;
+	margin: -30px auto;
+	right: 0;
+	left: 0;
+	font-size: 25px;
+	border-radius: 50%;
+	line-height: 65px;
+	height: 65px;
+	width: 65px;
+	background: rgba(0, 142, 214, 0.7);	
+	box-shadow: 0 0 0 1px #008ed6;
+}
+
+#subscribe .row {
+	padding: 100px 0px 120px 0px;
+}
+
+#subscribe h5{
+	margin-bottom: 45px;
+}
+
+#subscribe .form-control {
+	display: inline-block;
+	border: 1px solid #fff;
+    width: 320px;
+}
+
+#subscribe .form-control::-moz-placeholder {
+	color: #fff;
+}
+
+#subscribe .button-leweb {
+	display: inline-block;
+}
+
+#subscribe #mc_form label {
+	display: block;
+	font-size: 12px !important;
+	margin-top: 10px;
+	font-weight: normal;
+	position: relative;
+	color: #fff;
+}
+
+#subscribe #mc_form .valid:before {
+        font-family: FontAwesome;
+        top:0;
+        content: "\f058";
+		font-size: 14px;
+		margin-right: 4px;
+		color: #b8c000;
+}
+
+#subscribe #mc_form .error:before {
+        font-family: FontAwesome;
+        top:0;
+        content: "\f071";
+		font-size: 14px;
+		margin-right: 4px;
+		color: #bb1720;
+}
+
+
+/* CONTACT */
+
+#contact .button-leweb {
+	border: 1px solid #ccc;
+}
+
+#success {
+	display: none;
+}
+
+#success i {
+	color: #b8c000;
+	font-size: 28px;
+	display: block;
+}
+
+
+
+
+/* FOOTER */
+
+#footer {
+	border-top: 1px solid #ccc;
+	padding: 25px 0px;
+}
+
+#footer p {
+	margin: 0px 0px -5px;
+}
+
+#footer .social {
+	float: right;
+}
+
+#footer .fa {
+	font-size: 24px;
+	color: rgba(22, 182, 234, 0.5);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#footer .fa:hover {
+	color: #008ed6;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* Extra Small devices (tablets, 446px and less) */
+@media (max-width: 456px) { 
+	
+	#mc_form .form-control {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	
+	.button-leweb {
+		width: 100%;
+	}
+	
+	#header .logo {
+		width: 200px;
+	}
+	
+	#header h1 {
+		display: none;
+	}
+
+}
+/* Small devices (tablets, 768px and less) */
+@media (max-width: 768px) { 
+
+	body {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	h1 {
+		font-size: 44px;
+		line-height: 58px;
+	}
+
+	h2 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	h4 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	h5 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	
+	.clocktitle{
+		font-size: 11px;
+	}
+
+	.numbers {
+		font-size: 44px;
+	}
+	
+	#header .col-md-8 {
+		top: 5%;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {	
+	
+	#about .middle {
+		margin-top: 65px;
+		margin-bottom: 65px;
+	}
+}
+
+
